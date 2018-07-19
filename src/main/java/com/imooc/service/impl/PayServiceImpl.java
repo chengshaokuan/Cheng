@@ -6,7 +6,7 @@ import com.imooc.exception.SellException;
 import com.imooc.service.OrderService;
 import com.imooc.service.PayService;
 import com.imooc.utils.JsonUtil.JsonUtil;
-import com.imooc.utils.MathUtil;
+import com.imooc.utils.Math.MathUtil;
 import com.lly835.bestpay.enums.BestPayTypeEnum;
 import com.lly835.bestpay.model.PayRequest;
 import com.lly835.bestpay.model.PayResponse;
