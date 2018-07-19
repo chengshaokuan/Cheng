@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://impl.account.phenix.ns.creditease.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="AccountWSImpl" targetNamespace="http://impl.account.phenix.ns.creditease.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.account.phenix.ns.creditease.com/" targetNamespace="http://impl.account.phenix.ns.creditease.com/" version="1.0">
+
+  <xs:complexType name="batchAccQueryRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="channelId" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="list" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="merchId" type="xs:string"/>
+      <xs:element minOccurs="0" name="sendTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="signInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="versionNo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="batchAccQueryResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="list" nillable="true" type="tns:batchAccQueryDetailResponse"/>
+      <xs:element minOccurs="0" name="merchId" type="xs:string"/>
+      <xs:element minOccurs="0" name="respCode" type="xs:string"/>
+      <xs:element minOccurs="0" name="respDescription" type="xs:string"/>
+      <xs:element minOccurs="0" name="versionNo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="batchAccQueryDetailResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accBalance" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountFlag" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="address" type="xs:string"/>
+      <xs:element minOccurs="0" name="bankId" type="xs:string"/>
+      <xs:element minOccurs="0" name="cardTp" type="xs:string"/>
+      <xs:element minOccurs="0" name="completeTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="customerName" type="xs:string"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="frozenBalance" type="xs:string"/>
+      <xs:element minOccurs="0" name="identNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="identType" type="xs:string"/>
+      <xs:element minOccurs="0" name="mobileNum" type="xs:string"/>
+      <xs:element minOccurs="0" name="respCode" type="xs:string"/>
+      <xs:element minOccurs="0" name="respDescription" type="xs:string"/>
+      <xs:element minOccurs="0" name="state" type="xs:string"/>
+      <xs:element minOccurs="0" name="totalBalance" type="xs:string"/>
+      <xs:element minOccurs="0" name="userID" type="xs:string"/>
+      <xs:element minOccurs="0" name="verifyMode" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="openAccountRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accCurreny" type="xs:string"/>
+      <xs:element minOccurs="0" name="accSource" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountFlag" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="acqId" type="xs:string"/>
+      <xs:element minOccurs="0" name="address" type="xs:string"/>
+      <xs:element minOccurs="0" name="bankId" type="xs:string"/>
+      <xs:element minOccurs="0" name="bankLineNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="bizId" type="xs:string"/>
+      <xs:element minOccurs="0" name="cardTp" type="xs:string"/>
+      <xs:element minOccurs="0" name="channelId" type="xs:string"/>
+      <xs:element minOccurs="0" name="cusType" type="xs:string"/>
+      <xs:element minOccurs="0" name="customerName" type="xs:string"/>
+      <xs:element minOccurs="0" name="ecifId" type="xs:string"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="identNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="identType" type="xs:string"/>
+      <xs:element minOccurs="0" name="merchId" type="xs:string"/>
+      <xs:element minOccurs="0" name="mobileNum" type="xs:string"/>
+      <xs:element minOccurs="0" name="openBankName" type="xs:string"/>
+      <xs:element minOccurs="0" name="refEcifId" type="xs:string"/>
+      <xs:element minOccurs="0" name="remark" type="xs:string"/>
+      <xs:element minOccurs="0" name="sendTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="signInfo" type="xs:string"/>
+      <xs:element minOccurs="0" name="subAccChannel" type="xs:string"/>
+      <xs:element minOccurs="0" name="userID" type="xs:string"/>
+      <xs:element minOccurs="0" name="verifyType" type="xs:string"/>
+      <xs:element minOccurs="0" name="versionNo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="openAccountResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accountFlag" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="address" type="xs:string"/>
+      <xs:element minOccurs="0" name="bankId" type="xs:string"/>
+      <xs:element minOccurs="0" name="cardTp" type="xs:string"/>
+      <xs:element minOccurs="0" name="completeTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="customerName" type="xs:string"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="identNo" type="xs:string"/>
+      <xs:element minOccurs="0" name="identType" type="xs:string"/>
+      <xs:element minOccurs="0" name="mobileNum" type="xs:string"/>
+      <xs:element minOccurs="0" name="respCode" type="xs:string"/>
+      <xs:element minOccurs="0" name="respDescription" type="xs:string"/>
+      <xs:element minOccurs="0" name="state" type="xs:string"/>
+      <xs:element minOccurs="0" name="userID" type="xs:string"/>
+      <xs:element minOccurs="0" name="verifyMode" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="batchAccQueryResponse">
+    <wsdl:part name="return" type="tns:batchAccQueryResponse"/>
+  </wsdl:message>
+  <wsdl:message name="openAccountResponse">
+    <wsdl:part name="return" type="tns:openAccountResponse"/>
+  </wsdl:message>
+  <wsdl:message name="batchAccQuery">
+    <wsdl:part name="request" type="tns:batchAccQueryRequest"/>
+  </wsdl:message>
+  <wsdl:message name="openAccount">
+    <wsdl:part name="request" type="tns:openAccountRequest"/>
+  </wsdl:message>
+  <wsdl:portType name="AccountWS">
+    <wsdl:operation name="batchAccQuery">
+      <wsdl:input message="tns:batchAccQuery" name="batchAccQuery"/>
+      <wsdl:output message="tns:batchAccQueryResponse" name="batchAccQueryResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="openAccount">
+      <wsdl:input message="tns:openAccount" name="openAccount"/>
+      <wsdl:output message="tns:openAccountResponse" name="openAccountResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AccountWSImplSoapBinding" type="tns:AccountWS">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="batchAccQuery">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="batchAccQuery">
+        <soap:body namespace="http://impl.account.phenix.ns.creditease.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="batchAccQueryResponse">
+        <soap:body namespace="http://impl.account.phenix.ns.creditease.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="openAccount">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="openAccount">
+        <soap:body namespace="http://impl.account.phenix.ns.creditease.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="openAccountResponse">
+        <soap:body namespace="http://impl.account.phenix.ns.creditease.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AccountWSImpl">
+    <wsdl:port binding="tns:AccountWSImplSoapBinding" name="AccountWSPort">
+      <soap:address location="http://10.100.137.15:8080/netpay-phenix/services/accountWS"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
