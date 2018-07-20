@@ -32,10 +32,9 @@ public class StringUtil {
 	 * @date 2017-12-28
 	 */
 	public static boolean isBlank(String input) {
+
 		return input == null || "".equals(input) || input.length() == 0 || input.trim().length() == 0;
 	}
-
-
 
 	/**
 	 * Description:判断字符串不为空
@@ -123,7 +122,6 @@ public class StringUtil {
 	 * @author shiqi
 	 * @date 2017-12-28
 	 */
-
 	public static List<String> stringToList(String string){
 		List<String> result = null;
 		if(string == null) return result;

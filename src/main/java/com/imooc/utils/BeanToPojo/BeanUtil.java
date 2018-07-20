@@ -1,4 +1,4 @@
-package com.imooc.utils.util2.utils;
+package com.imooc.utils.BeanToPojo;
 
 import org.apache.commons.beanutils.PropertyUtilsBean;
 import org.apache.commons.collections.CollectionUtils;
@@ -25,6 +25,7 @@ import java.util.*;
  * 2017/7/12 1.0 Version
  */
 public class BeanUtil {
+
     private static String[] getNullPropertyNames(Object source) {
         final BeanWrapper src = new BeanWrapperImpl(source);
         PropertyDescriptor[] pds = src.getPropertyDescriptors();

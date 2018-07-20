@@ -6,7 +6,7 @@ import com.imooc.constant.RedisConstant;
 import com.imooc.dataobject.SellerInfo;
 import com.imooc.enums.ResultEnum;
 import com.imooc.service.SellerService;
-import com.imooc.utils.CookieUtil;
+import com.imooc.utils.util.CookieUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Controller;

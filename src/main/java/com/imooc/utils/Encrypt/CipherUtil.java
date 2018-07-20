@@ -1,4 +1,4 @@
-package com.imooc.utils.util2.utils;
+package com.imooc.utils.Encrypt;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

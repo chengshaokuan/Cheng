@@ -1,4 +1,4 @@
-package com.imooc.utils.util;
+package com.imooc.utils.Validation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

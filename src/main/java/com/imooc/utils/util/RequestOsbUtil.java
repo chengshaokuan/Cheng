@@ -8,7 +8,6 @@ public class RequestOsbUtil {
 		JaxWsDynamicClientFactory dynamicClient = JaxWsDynamicClientFactory.newInstance();
         Client client = dynamicClient.createClient(url);
 		Object[] results = null;
-		//http://vosb.creditease.corp:7077/HeXin/tppubmag/ps/TppubmagK_ps?wsdl
 		try {
 			results = client.invoke("SendHX", new Object[] {xml});
 		} catch (Exception e) {

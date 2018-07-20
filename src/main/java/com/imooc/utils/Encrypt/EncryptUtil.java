@@ -1,4 +1,4 @@
-package com.imooc.utils.util2.utils;
+package com.imooc.utils.Encrypt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,13 +13,9 @@ import java.util.*;
 /**
  * Created by Nyankosensei on 2017/7/20.
  */
-public class EcifBaseUtil {
+public class EncryptUtil {
 
-    public final static Logger logger = LoggerFactory.getLogger(EcifBaseUtil.class);
-
-
-    /* 生产环境 */
-    public static final String PROFILE_ENV_PRODUCT = "product";
+    public final static Logger logger = LoggerFactory.getLogger(EncryptUtil.class);
 
 
     /**
@@ -31,19 +27,11 @@ public class EcifBaseUtil {
     public static String generateSignInfoNew(Object obj, String seed) throws Exception {
 
         TreeMap<String, String> map = new TreeMap<String, String>();
-
         map = convertObjToMapNew(obj, map, null);
-
         String signStr = buildSignStr(map, seed);// 签名前字符串
-
-
         logger.info("签名前字符串:{}", signStr);
-
-
         String signInfo = md5Sign(signStr);
-
         logger.info("签名后字符串:{}", signInfo);
-
         if (!isProductEnv()) {
             //System.out.println("[Phenix]签名前字符串=" + signStr);
             //System.out.println("[Phenix]签名信息=" + signInfo);
@@ -63,18 +51,14 @@ public class EcifBaseUtil {
     public static String generateSignInfo(Object obj, String seed, String... exclude) throws Exception {
 
         TreeMap<String, String> map = new TreeMap<String, String>();
-
         map = convertObjToMapNew(obj, map, null);
         if (null != exclude) {
             for (String str : exclude) {
                 map.remove(str);
             }
         }
-
         String signStr = buildSignStr(map, seed);// 签名前字符串
-
         String signInfo = md5Sign(signStr);
-
         if (!isProductEnv()) {
             //System.out.println("[Phenix]签名前字符串=" + signStr);
             //System.out.println("[Phenix]签名信息=" + signInfo);
@@ -259,29 +243,6 @@ public class EcifBaseUtil {
         return s.substring(0, 8) + s.substring(9, 13) + s.substring(14, 18) + s.substring(19, 23) + s.substring(24);
     }
 
-    /**
-     * 将来源系统的证件编码转换成目标系统的证件编码
-     * @param srcSysTpCd 来源系统代码
-     * @param srcDicItemCd 来源系统的证件编码
-     * @param tarSysTpCd 目标系统代码
-     * @return 目标系统的证件编码
-     */
-//    public static String transformCardTypeCode(String srcSysTpCd, String srcDicItemCd, String tarSysTpCd){
-//        String trustType = "";
-//
-//        SysCodeMappingMapper sys = SpringContextUtils.getBean("sysCodeMappingMapper");
-//        SysCodeMappingKey key=new SysCodeMappingKey();
-//        key.setDicCd("3");
-//        key.setSrcSysTpCd(srcSysTpCd);
-//        key.setTarSysTpcd(tarSysTpCd);
-//        key.setSrcDicItemCd(srcDicItemCd);
-//
-//        SysCodeMappingVO mapper = sys.selectByPrimaryKey(key);
-//        if(mapper != null)
-//            trustType = sys.selectByPrimaryKey(key).getTarDicItemCd();
-//
-//        return trustType;
-//    }
 
 /*	public static void main(String[] args) throws Exception {
 

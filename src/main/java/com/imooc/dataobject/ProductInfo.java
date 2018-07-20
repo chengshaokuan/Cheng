@@ -2,7 +2,7 @@ package com.imooc.dataobject;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.imooc.enums.ProductStatusEnum;
-import com.imooc.utils.EnumUtil;
+import com.imooc.utils.util.EnumUtil;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 

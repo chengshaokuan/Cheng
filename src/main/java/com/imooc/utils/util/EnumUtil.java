@@ -1,4 +1,4 @@
-package com.imooc.utils;
+package com.imooc.utils.util;
 
         import com.imooc.enums.CodeEnum;
 

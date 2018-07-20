@@ -1,10 +1,8 @@
-package com.imooc.utils;
+package com.imooc.utils.util;
 
 import com.imooc.VO.ResultVO;
 
-/**
- *
- */
+
 public class ResultVOUtil {
 
     public static ResultVO success(Object object) {

@@ -1,4 +1,4 @@
-package com.imooc.utils.util2.utils;
+package com.imooc.utils.util;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
