@@ -15,7 +15,7 @@ public class ReadJsonUtil {
 
     private static ObjectMapper objectMapper = new ObjectMapper();
 
-    public static JsonNode parseString2JsonNode(String data) {
+    public static JsonNode parseString2JsonNode (String data) {
 
         try {
             objectMapper.readTree(data);
@@ -31,7 +31,7 @@ public class ReadJsonUtil {
      * @param object
      * @return
      */
-    public static String parseObject2String(Object object) {
+    public static String parseObject2String (Object object) {
         if (objectMapper == null) {
             objectMapper = new ObjectMapper();
         }
@@ -41,7 +41,6 @@ public class ReadJsonUtil {
             LOG.error("parseObject2String error!", e.getMessage());
             e.printStackTrace();
         }
-
         return null;
     }
 

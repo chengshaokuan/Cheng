@@ -7,6 +7,7 @@ import com.imooc.service.BuyerService;
 import com.imooc.service.OrderService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,6 +17,8 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class BuyerServiceImpl implements BuyerService {
+
+    JdbcTemplate jdbc;
 
     @Autowired
     private OrderService orderService;

@@ -1,4 +1,4 @@
-package com.imooc.utils.Time;
+package com.imooc.utils.timeUtil;
 
 import com.imooc.utils.ResourceBundle.ResourceBundleHelper;
 import org.slf4j.Logger;
@@ -109,7 +109,7 @@ public class DateTimeUtil {
             return fmt.parse(dateStr);
         } catch (ParseException e) {
             LOGGER.warn(e.getMessage(), e);
-            throw new IllegalArgumentException("Date or Time String is invalid.");
+            throw new IllegalArgumentException("Date or timeUtil String is invalid.");
         }
     }
 

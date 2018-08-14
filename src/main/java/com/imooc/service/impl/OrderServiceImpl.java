@@ -80,7 +80,7 @@ public class OrderServiceImpl implements OrderService {
             orderDetail.setDetailId(KeyUtil.genUniqueKey());
             orderDetail.setOrderId(orderId);
             BeanUtils.copyProperties(productInfo, orderDetail);
-            orderDetailRepository.save(orderDetail);
+//            orderDetailRepository.save(orderDetail);
 
 //            CartDTO cartDTO = new CartDTO(orderDetail.getProductId(), orderDetail.getProductQuantity());
 //            cartDTOList.add(cartDTO);

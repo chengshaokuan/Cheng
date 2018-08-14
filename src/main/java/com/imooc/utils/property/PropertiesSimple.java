@@ -1,4 +1,4 @@
-package com.imooc.utils.Property;
+package com.imooc.utils.property;
 
 import java.io.IOException;
 import java.io.InputStream;

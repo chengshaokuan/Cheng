@@ -1,4 +1,4 @@
-package com.imooc.utils.Time;
+package com.imooc.utils.timeUtil;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;

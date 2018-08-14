@@ -1,4 +1,4 @@
-package com.imooc.utils.Property;
+package com.imooc.utils.property;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

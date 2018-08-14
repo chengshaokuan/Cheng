@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sell</name>
+	<name>Cheng</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -36,7 +36,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
 		<!-- log4j日志 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -59,7 +58,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<!--mysql连接 -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -70,6 +69,11 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+		</dependency>
+		<!--项目工具类 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -80,7 +84,6 @@
 			<artifactId>joda-time</artifactId>
 			<version>2.3</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
@@ -117,28 +120,34 @@
 			<artifactId>unitils-jodatime</artifactId>
 			<version>1.0.3</version>
 		</dependency>
-        <dependency>
-            <groupId>cxf</groupId>
-            <artifactId>cxf</artifactId>
-            <version>2.7.11</version>
-            <scope>test</scope>
-        </dependency>
 		<dependency>
 			<groupId>cxf</groupId>
 			<artifactId>cxf</artifactId>
 			<version>2.7.11</version>
 		</dependency>
         <dependency>
-            <groupId>net.minidev</groupId>
-            <artifactId>json-smart</artifactId>
-            <version>2.3</version>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
         </dependency>
-        <dependency>
-            <groupId>net.sf.json-lib</groupId>
-            <artifactId>json-lib</artifactId>
-            <version>2.4</version>
-        </dependency>
-    </dependencies>
+
+		<!-- HikariCP连接池 -->
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>2.7.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.24</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>

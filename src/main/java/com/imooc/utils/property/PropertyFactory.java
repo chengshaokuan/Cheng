@@ -1,4 +1,4 @@
-package com.imooc.utils.Property;
+package com.imooc.utils.property;
 
 import org.dom4j.Document;
 import org.dom4j.Element;

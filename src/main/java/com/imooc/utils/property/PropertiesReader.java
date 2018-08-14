@@ -1,4 +1,4 @@
-package com.imooc.utils.Property;
+package com.imooc.utils.property;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,8 +36,9 @@ public class PropertiesReader {
         InputStream is = null;
         try {
             String pathToUse = location.substring("classpath:".length()) + PROPERTIES_SUFFIX;
-            if (pathToUse.startsWith("/"))
+            if (pathToUse.startsWith("/")) {
                 pathToUse = pathToUse.substring(1);
+            }
             is = Thread.currentThread().getContextClassLoader().getResourceAsStream(pathToUse);
             props.load(is);
         } catch (Exception e) {

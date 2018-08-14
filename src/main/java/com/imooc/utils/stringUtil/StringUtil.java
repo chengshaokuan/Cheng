@@ -1,6 +1,6 @@
-package com.imooc.utils.String;
+package com.imooc.utils.stringUtil;
 
-import com.imooc.utils.Time.TimeFormatUtil;
+import com.imooc.utils.timeUtil.TimeFormatUtil;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

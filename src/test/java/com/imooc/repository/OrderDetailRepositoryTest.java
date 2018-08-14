@@ -33,8 +33,8 @@ public class OrderDetailRepositoryTest {
         orderDetail.setProductPrice(new BigDecimal(2.2));
         orderDetail.setProductQuantity(3);
 
-        OrderDetail result = repository.save(orderDetail);
-        Assert.assertNotNull(result);
+//        OrderDetail result = repository.save(orderDetail);
+//        Assert.assertNotNull(result);
     }
 
     @Test

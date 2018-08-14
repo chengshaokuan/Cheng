@@ -37,8 +37,8 @@ public class OrderMasterRepositoryTest {
         orderMaster.setBuyerOpenid(OPENID);
         orderMaster.setOrderAmount(new BigDecimal(2.5));
 
-        OrderMaster result = repository.save(orderMaster);
-        Assert.assertNotNull(result);
+//        OrderMaster result = repository.save(orderMaster);
+//        Assert.assertNotNull(result);
     }
 
     @Test

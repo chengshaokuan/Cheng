@@ -1,6 +1,10 @@
 package com.imooc.repository;
 
 import com.imooc.dataobject.ProductInfo;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.annotation.Resource;
+import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.List;
 
@@ -25,13 +31,13 @@ public class ProductInfoRepositoryTest {
     @Test
     public void saveTest() {
         ProductInfo productInfo = new ProductInfo();
-        productInfo.setProductId("123456");
+        productInfo.setProductId("1234567");
         productInfo.setProductName("皮蛋粥");
         productInfo.setProductPrice(new BigDecimal(3.2));
         productInfo.setProductStock(100);
         productInfo.setProductDescription("很好喝的粥");
         productInfo.setProductIcon("http://xxxxx.jpg");
-        productInfo.setProductStatus(0);
+        productInfo.setProductStatus(1);
         productInfo.setCategoryType(2);
 
         ProductInfo result = repository.save(productInfo);
@@ -43,6 +49,22 @@ public class ProductInfoRepositoryTest {
 
         List<ProductInfo> productInfoList = repository.findByProductStatus(0);
         Assert.assertNotEquals(0, productInfoList.size());
+        for(ProductInfo productInfo:productInfoList){
+            System.out.println(productInfo.toString());
+        }
+
+    }
+    @Test
+    public void findByproductId() throws Exception {
+
+        List<ProductInfo> productInfoList = repository.findByproductId("123456");
+
+
+//        Assert.assertNotEquals(0, productInfoList.size());
+        for(ProductInfo productInfo:productInfoList){
+            System.out.println(productInfo.toString());
+        }
+
     }
 
 }
