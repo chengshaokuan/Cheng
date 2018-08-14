@@ -11,7 +11,7 @@ public class CipherUtil {
 
     private static final String MD5 = "MD5";
     private static final String UTF_8 = "UTF-8";
-    private static final String hexDigits[] = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d",
+    private static final String []hexDigits = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d",
             "e", "f"};
 
     public static String md5(String signStr) {
@@ -28,7 +28,7 @@ public class CipherUtil {
         return byteArray2HexString(signInfo);
     }
 
-    private static String byteArray2HexString(byte b[]) {
+    private static String byteArray2HexString(byte []b) {
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < b.length; i++) {
             sb.append(byte2HexString(b[i]));

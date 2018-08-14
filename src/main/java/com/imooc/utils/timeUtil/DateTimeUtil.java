@@ -51,6 +51,8 @@ public class DateTimeUtil {
 
     private static final String MONTH_DAY_FORMAT = "MM-dd";
 
+    private static final Pattern p1 = Pattern.compile("\\d{4}-\\d{2}-01");
+
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat(DATE_FORMAT_NORMAL);
 
     /**
@@ -807,7 +809,7 @@ public class DateTimeUtil {
     public static int compareDate(String date1, String date2) {
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         try {
-            if (date1 != null && !date1.equals("") && (date2 != null && !date2.equals(""))) {
+            if (isBlank(date1) && isBlank(date2)) {
                 Date dt1 = df.parse(date1);
                 Date dt2 = df.parse(date1);
                 if (dt1.getTime() > dt2.getTime()) {
@@ -880,17 +882,15 @@ public class DateTimeUtil {
             return date;
         }
     }
-    
+
     /**
-     * Description:字符串转日期格式
-     * 
-     * @param strDate
-     *            日期
-     * @param pattern
-     *            格式
-     * @return Date
-     * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:34:06
+     * @Description:  字符串转日期格式
+     * @param: date 日期
+     * @param: field 格式
+     * @param: amount
+     * @return: java.util.Date
+     * @Author: Mr.Cheng
+     * @Date: 17:59 2018/8/14
      */
     public static synchronized Date addDate(Date date, int field, int amount) {
         synchronized (FORMAT) {
@@ -899,5 +899,16 @@ public class DateTimeUtil {
         	c.add(field, amount);
             return c.getTime();
         }
+    }
+
+    /**
+     * @Description: 判断字符串是否为空(不依赖第三方)
+     * @param: str
+     * @return: boolean
+     * @Author: Mr.Cheng
+     * @Date: 15:34 2018/8/14
+     */
+    private static boolean isBlank (String str) {
+        return null == str || str.trim().length() == 0 || "".equals(str) || str.length() == 0;
     }
 }

@@ -181,7 +181,6 @@ public class JsonUtil {
                         } else {
                             date = (Date) value;
                         }
-
                         if (date != null) {
                             method.invoke(bean, new Object[]{date});
                         }
@@ -206,7 +205,6 @@ public class JsonUtil {
                     } else {
                         timestamp = (Timestamp) value;
                     }
-
                     if (timestamp != null) {
                         method.invoke(bean, new Object[]{timestamp});
                     }
@@ -325,13 +323,13 @@ public class JsonUtil {
      * @return List<T>
      * @throws Exception
      */
-    public static <T> List JsonToList (String json, Class<T> _class) throws Exception {
+    public static <T> List JsonToList (String json, Class<T> cla) throws Exception {
 
-        if (json == null || json.equals("")) {
+        if (json == null ||"" .equals(json)) {
             return new ArrayList();
         }
         JSONArray jsonArray = JSONArray.fromObject(json);
-        List list = (List) JSONArray.toCollection(jsonArray, _class);
+        List list = (List) JSONArray.toCollection(jsonArray, cla);
         return list;
     }
 

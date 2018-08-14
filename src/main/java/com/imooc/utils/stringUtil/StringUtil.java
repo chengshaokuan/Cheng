@@ -64,7 +64,7 @@ public class StringUtil {
 	 * @date 2017-12-28
 	 */
 	public static String ToSBC(String input) {
-		char c[] = input.toCharArray();
+		char []c = input.toCharArray();
 		for (int i = 0; i < c.length; i++) {
 			if (c[i] == ' ') {
 				c[i] = '\u3000';
@@ -82,7 +82,7 @@ public class StringUtil {
 	 * @date 2017-12-28
 	 */
 	public static String ToDBC(String input) {
-		char c[] = input.toCharArray();
+		char []c = input.toCharArray();
 		for (int i = 0; i < c.length; i++) {
 			if (c[i] == '\u3000') {
 				c[i] = ' ';
@@ -124,7 +124,9 @@ public class StringUtil {
 	 */
 	public static List<String> stringToList(String string){
 		List<String> result = null;
-		if(string == null) return result;
+		if(string == null) {
+			return result;
+		}
 		string = string.substring(string.indexOf("[")+1,string.indexOf("]"));
 		result = Arrays.asList(string.split(","));
 		return  result;

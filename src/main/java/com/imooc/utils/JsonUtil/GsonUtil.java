@@ -14,7 +14,7 @@ import java.util.Map;
  * @create: 2018-07-20 10:32
  **/
 public class GsonUtil {
-    //不用创建对象,直接使用Gson.就可以调用方法
+
     private static Gson gson = null;
 
     static {
@@ -35,7 +35,7 @@ public class GsonUtil {
      * @Author: Mr.Cheng
      * @Date: 16:09 2018/8/14
      */
-    public static String GsonString (Object object) {
+    public static String gsonString (Object object) {
         String gsonString = null;
         if (gson != null) {
             gsonString = gson.toJson(object);
@@ -51,7 +51,7 @@ public class GsonUtil {
      * @Author: Mr.Cheng
      * @Date: 16:08 2018/8/14
      */
-    public static <T> T GsonToBean (String gsonString, Class<T> cls) {
+    public static <T> T gsonToBean (String gsonString, Class<T> cls) {
         T t = null;
         if (gson != null) {
             t = gson.fromJson(gsonString, cls);
@@ -68,7 +68,7 @@ public class GsonUtil {
      * @Author: Mr.Cheng
      * @Date: 16:08 2018/8/14
      */
-    public static <T> List<T> GsonToList (String gsonString, Class<T> cls) {
+    public static <T> List<T> gsonToList (String gsonString, Class<T> cls) {
         List<T> list = null;
         if (gson != null) {
             //根据泛型返回解析指定的类型,TypeToken<List<T>>{}.getType()获取返回类型
@@ -105,7 +105,7 @@ public class GsonUtil {
      * @Author: Mr.Cheng
      * @Date: 16:06 2018/8/14
      */
-    public static <T> List<Map<String, T>> GsonToListMaps (String gsonString) {
+    public static <T> List<Map<String, T>> gsonToListMaps (String gsonString) {
         List<Map<String, T>> list = null;
         if (gson != null) {
             list = gson.fromJson(gsonString,
@@ -122,7 +122,7 @@ public class GsonUtil {
      * @Author: Mr.Cheng
      * @Date: 16:05 2018/8/14
      */
-    public static <T> Map<String, T> GsonToMaps (String gsonString) {
+    public static <T> Map<String, T> gsonToMaps (String gsonString) {
         Map<String, T> map = null;
         if (gson != null) {
             map = gson.fromJson(gsonString, new TypeToken<Map<String, T>>() {

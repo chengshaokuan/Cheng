@@ -28,6 +28,7 @@ public class SpringContextUtils implements ApplicationContextAware {
      * @Author WangShutao
      * Create Date: 2012-12-20 下午4:03:05
      */
+    @Override
     public void setApplicationContext(ApplicationContext context) {
         applicationContext = context;
     }

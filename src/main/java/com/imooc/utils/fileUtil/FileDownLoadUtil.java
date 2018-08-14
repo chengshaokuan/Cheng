@@ -22,7 +22,7 @@
 
 package com.imooc.utils.fileUtil;
 
-import com.creditease.crm.common.exception.BusinessException;
+import com.creditease.core.exception.BusinessException;
 import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
@@ -70,7 +70,7 @@ public class FileDownLoadUtil {
 	public void fileDownLoad(HttpServletRequest request,
                              HttpServletResponse response, String filePath) throws Exception {
 		if (response != null && request != null && filePath != null
-				&& !filePath.equals("")) {
+				&& !"".equals(filePath)) {
 			final String userAgent = request.getHeader("USER-AGENT");
 
 			// filePath是指欲下载的文件的路径。

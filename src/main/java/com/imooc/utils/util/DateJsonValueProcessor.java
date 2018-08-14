@@ -50,6 +50,7 @@ public class DateJsonValueProcessor implements JsonValueProcessor {
      * @throws
      * @Author WangShutao Create Date: 2012-12-20 下午3:52:27
      */
+    @Override
     public Object processArrayValue(Object value, JsonConfig jsonConfig) {
         String[] obj = {};
         if (value != null) {
@@ -77,6 +78,7 @@ public class DateJsonValueProcessor implements JsonValueProcessor {
      * @throws
      * @Author WangShutao Create Date: 2012-12-20 下午3:53:08
      */
+    @Override
     public Object processObjectValue(String key, Object value, JsonConfig jsonConfig) {
         if (value != null) {
             if (value instanceof Date) {

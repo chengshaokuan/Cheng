@@ -77,7 +77,7 @@ public class FileUploadUtil {
 			// 解析 request，判断是否有上传文件
 			boolean isMultipart = ServletFileUpload.isMultipartContent(request);
 			if (isMultipart) {
-				if(uploadDirPath==null||uploadDirPath.equals("")){
+				if(uploadDirPath==null||"".equals(uploadDirPath)){
 					uploadDirPath="UPLOAD";
 				}
 				// 获得上传路径

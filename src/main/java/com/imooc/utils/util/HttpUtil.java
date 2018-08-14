@@ -82,8 +82,6 @@ public class HttpUtil {
         } catch (IOException ie) {
             LOG.debug("convertEntity2JSON failed to parse");
             return null;
-        } finally {
-            return null;
         }
     }
 
