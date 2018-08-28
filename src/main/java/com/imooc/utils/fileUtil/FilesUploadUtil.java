@@ -6,7 +6,7 @@
  *
  * ============================================================
  *
- * FileName: FileUploadUtil.java 
+ * FileName: FilesUploadUtil.java
  *
  * Created: [2012-11-5 上午9:52:40] by ShawnYao 
  *
@@ -31,10 +31,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.IOException;
 import java.net.URLDecoder;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -53,9 +50,9 @@ import java.util.Map;
  * </pre>
  *
  */
-public class FileUploadUtil {
+public class FileUploadUtila {
 	
-	private Logger log = Logger.getLogger(FileUploadUtil.class);
+	private Logger log = Logger.getLogger(FileUploadUtila.class);
 
 	/**
 	 * <p>
@@ -171,5 +168,7 @@ public class FileUploadUtil {
 		}
 		return errorMsg;
 	}
+
+
 
 }
