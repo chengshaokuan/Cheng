@@ -1,25 +1,3 @@
-/**
- *
- * Copyright (C) 2006-2012 普信恒业科技发展（北京）有限公司.
- *
- * 本系统是商用软件,未经授权擅自复制或传播本程序的部分或全部将是非法的.
- *
- * ============================================================
- *
- * FileName: FileDownLoadUtil.java 
- *
- * Created: [2013-3-22 上午11:47:05] by ShawnYao 
- *
- * ============================================================ 
- * 
- * ProjectName: crm 
- * 
- * Description: 
- * 
- * ==========================================================
- *
- */
-
 package com.imooc.utils.fileUtil;
 
 import com.creditease.core.exception.BusinessException;
@@ -34,22 +12,6 @@ import java.io.OutputStream;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 
-/**
- * <p>
- * Description: 下载工具类
- * </p>
- * 
- * @author shenghuayao
- * @version 1.0 Create Date: 2013-3-22 上午11:47:05 Project Name: crm
- * 
- *          <pre>
- * Modification History: 
- *             Date                                Author                   Version          Description 
- * -----------------------------------------------------------------------------------------------------------  
- * LastChange: $Date:: 2013-06-27 #$      $Author: huzhiliang $          $Rev: 3477 $
- * </pre>
- * 
- */
 public class FileDownLoadUtil {
 
 	private Logger log = Logger.getLogger(FileUploadUtil.class);
