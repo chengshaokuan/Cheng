@@ -1,25 +1,3 @@
-/**
- *
- * Copyright (C) 2006-2012 普信恒业科技发展（北京）有限公司.
- *
- * 本系统是商用软件,未经授权擅自复制或传播本程序的部分或全部将是非法的.
- *
- * ============================================================
- *
- * FileName: FilesUploadUtil.java
- *
- * Created: [2012-11-5 上午9:52:40] by ShawnYao 
- *
- * ============================================================ 
- * 
- * ProjectName: RealEstate 
- * 
- * Description: 
- * 
- * ==========================================================
- *
- */
-
 package com.imooc.utils.fileUtil;
 
 import org.apache.commons.fileupload.FileItem;
@@ -50,9 +28,9 @@ import java.util.*;
  * </pre>
  *
  */
-public class FileUploadUtila {
+public class FilesUploadUtil {
 	
-	private Logger log = Logger.getLogger(FileUploadUtila.class);
+	private Logger log = Logger.getLogger(FilesUploadUtil.class);
 
 	/**
 	 * <p>
