@@ -15,17 +15,14 @@ import java.util.Properties;
  **/
 public class PropertiesSimple {
 
-
     private static Map<String, String> map = new HashMap<String, String>();
 
     static {
-
         try {
-            InputStream inputStream = PropertiesReader.class.getClassLoader().getResourceAsStream("app-const.properties");
+            InputStream inputStream = PropertiesReader.class.getClassLoader().getResourceAsStream("timeUtil_zh_CN.properties");
             Properties properties = new Properties();
             properties.load(inputStream);
             Iterator<Map.Entry<Object, Object>> iterator = properties.entrySet().iterator();
-
             Map<String, String> tmap = new HashMap<String, String>();
             while (iterator.hasNext()) {
                 Map.Entry<Object, Object> objectObjectEntry = iterator.next();
@@ -40,5 +37,9 @@ public class PropertiesSimple {
 
     public static String getValue (String key) {
         return map.get(key);
+    }
+
+    public static void main (String[] args) throws Exception {
+        System.out.println(getValue("multi.year"));
     }
 }

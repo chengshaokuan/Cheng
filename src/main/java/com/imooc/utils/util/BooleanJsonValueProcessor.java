@@ -1,6 +1,6 @@
 package com.imooc.utils.util;
 
-import com.creditease.crm.common.i18n.ResourceBundleHelper;
+import com.imooc.utils.ResourceBundle.ResourceBundleHelper;
 import net.sf.json.JsonConfig;
 import net.sf.json.processors.JsonValueProcessor;
 

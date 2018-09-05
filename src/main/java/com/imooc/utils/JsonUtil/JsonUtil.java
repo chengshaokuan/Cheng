@@ -16,7 +16,7 @@
 package com.imooc.utils.JsonUtil;
 
 
-import com.imooc.utils.timeUtil.DateTimeUtil;
+import com.imooc.utils.timeUtil.TimeUtil;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
@@ -256,7 +256,7 @@ public class JsonUtil {
         try {
             method = c.getMethod("get" + methodName);
             if (String.valueOf(type).contains("Date")) {
-                return DateTimeUtil.getTimeNormalString((java.util.Date) method.invoke(o));
+                return TimeUtil.getTimeNormalString((java.util.Date) method.invoke(o));
             }
             return method.invoke(o);
         } catch (Exception e) {

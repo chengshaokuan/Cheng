@@ -1,4 +1,4 @@
-package com.imooc.utils.stringUtil;
+package com.imooc.utils.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

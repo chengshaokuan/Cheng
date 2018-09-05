@@ -28,7 +28,7 @@ public class PropertyDictionaryFactory {
     }
 
     private static class HoldDicSingletonClass{
-        private static final String fileName = "dictionary-convert.properties";
+        private static final String fileName = "timeUtil_zh_CN.properties";
         private static final Properties dicProps = readProperty(fileName);
         private static final String reversePropertyPath = "reverse-dictionary-converted.properties";
         private static final Properties reverseProps = readProperty(reversePropertyPath);
@@ -42,9 +42,8 @@ public class PropertyDictionaryFactory {
      * @Date: 14:38 2018/7/19 
      */ 
     private static Properties readProperty(String fileName) {
-
         Reader reader = null;
-        java.util.Properties pros = new java.util.Properties();
+        Properties pros = new Properties();
         try {
             reader = new InputStreamReader(Thread.currentThread().getContextClassLoader().getResourceAsStream(fileName), "UTF-8");
             pros.load(reader);
@@ -60,5 +59,8 @@ public class PropertyDictionaryFactory {
             }
         }
         return pros;
+    }
+    public static void main (String[] args) throws Exception {
+//        System.out.println(getValue("multi.year"));
     }
 }

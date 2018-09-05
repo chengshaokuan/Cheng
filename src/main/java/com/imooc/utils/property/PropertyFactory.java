@@ -22,7 +22,6 @@ import java.util.*;
 public class PropertyFactory {
 
     private static Logger logger = LoggerFactory.getLogger(PropertyFactory.class);
-
     private static Properties pros = new Properties();
 
 
@@ -56,7 +55,6 @@ public class PropertyFactory {
                 }
             }
         }
-
     }
 
     /**
@@ -83,10 +81,10 @@ public class PropertyFactory {
     }
 
     /**
-     * @Description:  读取参数文件
+     * @Description: 读取参数文件
      * @param: path   参数文件路径
      * @param: fileName  参数文件名
-     * @return: java.util.HashMap<java.lang.String,java.lang.String>
+     * @return: java.util.HashMap<java.lang.String   ,   java.lang.String>
      * @Author: Mr.Cheng
      * @Date: 14:59 2018/7/19
      */
@@ -98,13 +96,11 @@ public class PropertyFactory {
         if (null == url) {
             url = this.getClass().getClassLoader().getResource(path + fileName);
         }
-
         // 解决文件路径可能出现空格的问题
         String filepath = url.getFile();
         if (!"".equals(filepath)) {
             path = path.replace("%20", " ");
         }
-
         try {
             in = new BufferedInputStream(new FileInputStream(filepath));
             p.load(in);
@@ -125,7 +121,6 @@ public class PropertyFactory {
                 }
             }
         }
-
         return map;
     }
 
@@ -134,7 +129,7 @@ public class PropertyFactory {
      *
      * @param path     参数文件路径
      * @param fileName 参数文件名
-     * @return List<HashMap                                                                                                                                                                                                                                                               <                                                                                                                                                                                                                                                               String                                                                                                                                                                                                                                                               ,                                                                                                                                                                                                                                                               String>>
+     * @return List<HashMap                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               String>>
      * @throws
      * @Author: Mr.Cheng
      * @Date: 14:59 2018/7/19
@@ -186,7 +181,6 @@ public class PropertyFactory {
                 }
             }
         }
-
         return list;
     }
 
@@ -196,6 +190,10 @@ public class PropertyFactory {
     public synchronized void reloadProperties () {
         HashMap<String, String> properties = this.readProperty("", "/config.properties");
         pros.putAll(properties);
+    }
+
+    public static void main (String[] args) throws Exception {
+//        System.out.println(getValue("multi.year"));
     }
 
 }

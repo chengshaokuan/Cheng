@@ -29,7 +29,6 @@ import java.util.regex.Pattern;
  **/
 public class IdCardVerification {
 
-
     private static final Logger log = LoggerFactory.getLogger(IdCardVerification.class);
 
     /**
@@ -68,7 +67,6 @@ public class IdCardVerification {
      * 身份证校验码无效
      */
     public static final String INVALIDCALIBRATION = "身份证校验码无效,不是合法的身份证号码!";
-
 
     /**
      * @Description: 检验身份证号码是否符合规范
@@ -170,7 +168,7 @@ public class IdCardVerification {
     /**
      * @Description: 将所有地址编码保存在一个Hashtable中
      * @param:
-     * @return: java.util.Hashtable<java.lang.String   ,   java.lang.String>
+     * @return: java.util.Hashtable<java.lang.String       ,       java.lang.String>
      * @Author: Mr.Cheng
      * @Date: 11:23 2018/7/20
      */
@@ -248,6 +246,4 @@ public class IdCardVerification {
             return false;
         }
     }
-
-
 }

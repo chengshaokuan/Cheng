@@ -31,7 +31,6 @@ public class PropertiesReader {
      * @Date: 14:31 2018/7/19
      */
     public static Properties getProperties (String location) {
-
         Properties props = new Properties();
         InputStream is = null;
         try {
@@ -55,5 +54,4 @@ public class PropertiesReader {
         }
         return props;
     }
-
 }
