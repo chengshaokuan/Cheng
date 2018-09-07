@@ -1,4 +1,4 @@
-package com.imooc.utils.BeanToPojo;
+package com.imooc.utils.util;
 
 import org.apache.commons.beanutils.PropertyUtilsBean;
 import org.apache.commons.collections.CollectionUtils;

@@ -6,7 +6,7 @@ import com.imooc.dataobject.OrderDetail;
 import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.PayStatusEnum;
 import com.imooc.utils.util.EnumUtil;
-import com.imooc.utils.serializer.Date2LongSerializer;
+import com.imooc.utils.util.Date2LongSerializer;
 import lombok.Data;
 
 import java.math.BigDecimal;
