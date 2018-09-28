@@ -1,7 +1,7 @@
 package com.csk.utils.JsonUtil;
 
-
 import com.csk.utils.timeUtil.TimeUtil;
+import lombok.extern.slf4j.Slf4j;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONException;
 import net.sf.json.JSONObject;
@@ -18,20 +18,13 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Description:
- * json 处理工具类
- *
- * @author mawenqiang
- * @version 1.0
- * <pre>
- * Modification History:
- * Date         Author      Version     Description
- * ------------------------------------------------------------------
- * 2014-7-10    mawenqiang       1.0        1.0 Version
- * </pre>
- */
+ * @program: Cheng
+ * @description: 处理工具类
+ * @author: Mr.Cheng
+ * @create: 2018-07-20 10:32
+ **/
+@Slf4j
 public class JsonUtil {
-    private static final Logger logg = Logger.getLogger(JsonUtil.class);
 
     /**
      * JSONObject对象转JavaBean
@@ -67,7 +60,7 @@ public class JsonUtil {
                 }
             }
         } catch (Exception ex) {
-            logg.info("JSONObject转JavaBean失败", ex);
+            log.info("JSONObject转JavaBean失败", ex);
         }
         return obj;
     }
@@ -197,7 +190,7 @@ public class JsonUtil {
                     method.invoke(bean, new Object[]{new String("" + value).getBytes()});
                 }
             } catch (Exception ex) {
-                logg.info("JSONObject赋值给JavaBean失败", ex);
+                log.info("JSONObject赋值给JavaBean失败", ex);
             }
         }
     }
@@ -246,7 +239,7 @@ public class JsonUtil {
             return method.invoke(o);
         } catch (Exception e) {
             e.printStackTrace();
-            logg.equals(e);
+            log.equals(e);
             return "";
         }
     }
@@ -256,7 +249,7 @@ public class JsonUtil {
      * json转map
      *
      * @param
-     * @return Map<String                                                                                                                                                                                                                                                               ,                                                                                                                                                                                                                                                               Object>
+     * @return Map<String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Object>
      * @throws Exception if has error
      * @Author Administrator
      * @Create Date: 2014-7-14 上午10:28:12
