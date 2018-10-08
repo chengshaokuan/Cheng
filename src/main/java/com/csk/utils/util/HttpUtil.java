@@ -23,17 +23,17 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiecui1 on 2017/5/27.
- */
+ * @program: Cheng
+ * @description: Http工具类
+ * @author: Mr.Cheng
+ * @create: 2018-09-05 17:03
+ **/
 public class HttpUtil {
-    private static final Logger LOG = LoggerFactory.getLogger(HttpUtil.class);
+    private static final Logger logger = LoggerFactory.getLogger(HttpUtil.class);
 
     private static int kMAXCONNECTION = 2000;
-
     private static int kMAX_RETRY_TIMES = 3;
-
     private static int kSTATUS_OK = 200;
-
     private static int CONNECTTIMEOUT = 5000;
     private static int CONNECTIONREQUESTTIMEOUT = 1000;
     private static int SOCKETTIMEOUT = 5000;
@@ -57,36 +57,40 @@ public class HttpUtil {
         httpBuilder.setDefaultRequestConfig(requestConfig);
     }
 
-    public static HttpClient getHttpClient() {
+    public static HttpClient getHttpClient () {
         return httpBuilder.build();
     }
 
-    private static List<NameValuePair> convertParams(final Map<String, String> params) {
-        if (params == null || params.isEmpty()) {   return null;    }
+    private static List<NameValuePair> convertParams (final Map<String, String> params) {
+        if (params == null || params.isEmpty()) {
+            return null;
+        }
         List<NameValuePair> pairs = new ArrayList<NameValuePair>();
         for (Map.Entry<String, String> entry : params.entrySet()) {
-            LOG.info("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+            logger.info("Key = " + entry.getKey() + ", Value = " + entry.getValue());
             pairs.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
         }
         return pairs;
     }
 
-    public static JsonNode convertEntity2JSON(final HttpEntity httpEntity) {
-        LOG.info("convertEntity2JSON httpEntity : {}", httpEntity);
-        if (httpEntity == null) {   return null;    }
+    public static JsonNode convertEntity2JSON (final HttpEntity httpEntity) {
+        logger.info("convertEntity2JSON httpEntity : {}", httpEntity);
+        if (httpEntity == null) {
+            return null;
+        }
         ObjectMapper mapper = new ObjectMapper();
         try {
             String content = EntityUtils.toString(httpEntity);
-            LOG.info("convertEntity2JSON http entity content: {}", content);
+            logger.info("convertEntity2JSON http entity content: {}", content);
             return mapper.readTree(content);
         } catch (IOException ie) {
-            LOG.debug("convertEntity2JSON failed to parse");
+            logger.debug("convertEntity2JSON failed to parse");
             return null;
         }
     }
 
-    public static HttpEntity sendRequest(final String url, final Map<String, String> params, boolean isGet) {
-        LOG.info("sendRequest init ; url : {}; params : {}; isGet : {}", url, params, isGet);
+    public static HttpEntity sendRequest (final String url, final Map<String, String> params, boolean isGet) {
+        logger.info("sendRequest init ; url : {}; params : {}; isGet : {}", url, params, isGet);
         int retry = 0;
         HttpEntity entity = null;
         List<NameValuePair> paramList = convertParams(params);
@@ -96,49 +100,50 @@ public class HttpUtil {
                 : requestBuilder.setUri(url)
                 .addParameters((NameValuePair[]) paramList.toArray(new NameValuePair[paramList.size()]))
                 .build();
-        if (LOG.isDebugEnabled()) {
-            LOG.debug(httpUriRequest.toString());
+        if (logger.isDebugEnabled()) {
+            logger.debug(httpUriRequest.toString());
         }
         do {
             HttpClient client = getHttpClient();
             if (client == null) {
-                LOG.warn("null client");
+                logger.warn("null client");
                 continue;
             }
             try {
                 HttpResponse response = client.execute(httpUriRequest);
-                LOG.info("http response : {}", response);
+                logger.info("http response : {}", response);
                 if (response != null && response.getStatusLine().getStatusCode() == kSTATUS_OK) {
                     entity = response.getEntity();
                 } else {
-                    LOG.warn(response.toString());
+                    logger.warn(response.toString());
                 }
                 break;
             } catch (IOException e) {
-                LOG.error(e.getMessage());
+                logger.error(e.getMessage());
             }
         } while (++retry < kMAX_RETRY_TIMES);
 
-        if (LOG.isDebugEnabled() && entity != null) {
-            LOG.debug(entity.toString());
+        if (logger.isDebugEnabled() && entity != null) {
+            logger.debug(entity.toString());
         }
 
         return entity;
     }
 
-    public static JsonNode getJSONResponse(final String url, final Map<String, String> params, boolean isGet) {
+    public static JsonNode getJSONResponse (final String url, final Map<String, String> params, boolean isGet) {
         return convertEntity2JSON(sendRequest(url, params, isGet));
     }
 
     /**
-     * 将返回结果 转json
-     *
-     * @param url
-     * @param params
-     * @param isGet
-     * @return
+     * @Description:  将返回结果 转json
+     * @param: url
+     * @param: params
+     * @param: isGet
+     * @return: com.fasterxml.jackson.databind.JsonNode
+     * @Author: Mr.Cheng
+     * @Date: 14:46 2018/10/8
      */
-    public static JsonNode getJSONResult(final String url, final Map<String, String> params, boolean isGet) {
+    public static JsonNode getJSONResult (final String url, final Map<String, String> params, boolean isGet) {
         JsonNode jsonNode = null;
         try {
             HttpEntity entity = sendRequest(url, params, isGet);
@@ -149,7 +154,7 @@ public class HttpUtil {
                 jsonNode = strResult == null ? null : mapper.readTree(strResult);
             }
         } catch (IOException e) {
-            LOG.debug("to json fail", e);
+            logger.debug("to json fail", e);
         }
         return jsonNode;
     }

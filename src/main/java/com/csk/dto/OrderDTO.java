@@ -6,7 +6,7 @@ import com.csk.dataobject.OrderDetail;
 import com.csk.enums.OrderStatusEnum;
 import com.csk.enums.PayStatusEnum;
 import com.csk.utils.util.EnumUtil;
-import com.csk.utils.util.Date2LongSerializer;
+import com.csk.utils.serializer.Date2LongSerializer;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -9,32 +9,23 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: 反射工具类。
- * @author HuZhiliang
- * @version 1.0
- * <pre>
- * Modification History:
- * Date         Author       Version     Description
-------------------------------------------------------------------
- * 2013-1-5      HuZhiliang    1.0        1.0 Version
- * </pre>
- */
+ * @program: Cheng
+ * @description: 反射工具类。
+ * @author: Mr.Cheng
+ * @create: 2018-09-05 17:03
+ **/
 public class ReflectUtil {
 
-	/**
-	 *
-	 */
 	public ReflectUtil() {
 	}
 
 	/**
-	 * Description:通过反射调用get方法。
-	 * @param obj 对象
-	 * @param s 属性
-	 * @return Object
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:49:34
+	 * @Description: 通过反射调用get方法。
+	 * @param: obj 对象
+     * @param: s 属性
+	 * @return: java.lang.Object
+	 * @Author: Mr.Cheng
+	 * @Date: 15:21 2018/10/8
 	 */
 	public static Object invokeGetMethod(Object obj, String s) {
 		try {
@@ -48,13 +39,13 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:通过反射调用set方法。
-     * @param obj 对象
-     * @param s 属性
-     * @param obj1 对象
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:50:45
+	 * @Description: 通过反射调用set方法
+	 * @param: obj 对象
+     * @param: s 属性
+     * @param: obj1 对象
+	 * @return: void
+	 * @Author: Mr.Cheng
+	 * @Date: 15:22 2018/10/8
 	 */
 	public static void invokeSetMethod(Object obj, String s, Object obj1) {
 		Class<?> class1 = obj1.getClass();
@@ -62,14 +53,14 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:通过反射调用set方法。
-     * @param obj 对象
-     * @param s 属性
-     * @param obj1 对象
-     * @param class1 类型
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:51:12
+	 * @Description: 通过反射调用set方法。
+	 * @param: obj
+     * @param: s
+     * @param: obj1
+     * @param: class1
+	 * @return: void
+	 * @Author: Mr.Cheng
+	 * @Date: 15:23 2018/10/8
 	 */
 	public static void invokeSetMethod(Object obj, String s, Object obj1, Class<?> class1) {
 		String s1 = (new StringBuilder("set")).append(StringUtils.capitalize(s)).toString();
@@ -82,13 +73,12 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:通过属性名称，获取属性值。
-     * @param obj 对象
-     * @param s 属性名称。
-	 * @return Object
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:52:09
+	 * @Description: 通过属性名称，获取属性值。
+	 * @param: obj
+     * @param: s
+	 * @return: java.lang.Object
+	 * @Author: Mr.Cheng
+	 * @Date: 15:24 2018/10/8
 	 */
 	public static Object getFieldValue(Object obj, String s) {
 		Field field = getFiled(obj, s);
@@ -105,13 +95,13 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:通过属性名称，为新对象设置属性值。
-	 * @param obj 对象
-     * @param s 属性名称。
-     * @param obj1 新对象
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:52:26
+	 * @Description:  通过属性名称，为新对象设置属性值。
+	 * @param: obj
+	 * @param: s
+	 * @param: obj1
+	 * @return: void
+	 * @Author: Mr.Cheng
+	 * @Date: 15:24 2018/10/8
 	 */
 	public static void setFieldValue(Object obj, String s, Object obj1) {
 		Field field = getFiled(obj, s);
@@ -135,13 +125,12 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:通过属性名称获取对象属性。
-     * @param obj 对象
-	 * @param s 属性名称
-	 * @return Field
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:52:34
+	 * @Description:  通过属性名称获取对象属性
+	 * @param: obj
+	 * @param: s
+	 * @return: java.lang.reflect.Field
+	 * @Author: Mr.Cheng
+	 * @Date: 15:24 2018/10/8
 	 */
 	private static Field getFiled(Object obj, String s) {
 		Class<?> class1 = obj.getClass();
@@ -160,12 +149,11 @@ public class ReflectUtil {
 	}
 
 	/**
-	 * Description:获取对象属性。
-	 * @param obj 对象
-	 * @return Field[]
-	 * @throws
-	 * @Author HuZhiliang
-	 * Create Date: 2013-1-5 上午11:52:38
+	 * @Description:  获取对象属性。
+	 * @param: obj
+	 * @return: java.util.List<java.lang.reflect.Field>
+	 * @Author: Mr.Cheng
+	 * @Date: 15:23 2018/10/8
 	 */
 	public static List<Field> getFields(Object obj) {
 		Class<?> class1 = obj.getClass();
@@ -180,11 +168,11 @@ public class ReflectUtil {
 	}
 	
 	/**
-	 * 反序列化具体的类信息
-	 * 
-	 * @param className
-	 *            String
-	 * @return Object
+	 * @Description: 反序列化具体的类信息
+	 * @param: className
+	 * @return: java.lang.Object
+	 * @Author: Mr.Cheng
+	 * @Date: 15:23 2018/10/8
 	 */
 	public static Object loadClassObject(String className) {
 		Object object = null;

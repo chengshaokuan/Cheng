@@ -126,7 +126,6 @@ public class PropertyFactory {
 
     /**
      * Description:加载XML文件
-     *
      * @param path     参数文件路径
      * @param fileName 参数文件名
      * @return List<HashMap                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               String>>
@@ -194,6 +193,9 @@ public class PropertyFactory {
 
     public static void main (String[] args) throws Exception {
 //        System.out.println(getValue("multi.year"));
+        while(true){
+            System.out.print(1);
+        }
     }
 
 }

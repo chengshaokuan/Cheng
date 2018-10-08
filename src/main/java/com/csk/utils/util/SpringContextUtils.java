@@ -1,19 +1,15 @@
 package com.csk.utils.util;
 
+import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 /**
- * Description:以静态变量保存Spring ApplicationContext.
- * @author WangShutao
- * @version 1.0
- * <pre>
- * Modification History:
- * Date         Author       Version     Description
-------------------------------------------------------------------
- * 2012-12-20      WangShutao    1.0        1.0 Version
- * </pre>
- */
+ * @program: Cheng
+ * @description: 以静态变量保存Spring ApplicationContext.工具类
+ * @author: Mr.Cheng
+ * @create: 2018-09-05 17:03
+ **/
 public class SpringContextUtils implements ApplicationContextAware {
     /**
      * 上下文
@@ -21,12 +17,11 @@ public class SpringContextUtils implements ApplicationContextAware {
     private static ApplicationContext applicationContext;
 
     /**
-     * Description:实现ApplicationContextAware接口的context注入函数, 将其存入静态变量.
-     * @param context 上下文
-     * @return
-     * @throws
-     * @Author WangShutao
-     * Create Date: 2012-12-20 下午4:03:05
+     * @Description: 实现ApplicationContextAware接口的context注入函数, 将其存入静态变量.
+     * @param: context 上下文
+     * @return: void
+     * @Author: Mr.Cheng
+     * @Date: 15:26 2018/10/8
      */
     @Override
     public void setApplicationContext(ApplicationContext context) {
@@ -34,12 +29,11 @@ public class SpringContextUtils implements ApplicationContextAware {
     }
 
     /**
-     * Description:取得存储在静态变量中的ApplicationContext.
-     * @param
-     * @return ApplicationContext
-     * @throws
-     * @Author WangShutao
-     * Create Date: 2012-12-20 下午4:03:21
+     * @Description:  取得存储在静态变量中的ApplicationContext.
+     * @param:
+     * @return: org.springframework.context.ApplicationContext
+     * @Author: Mr.Cheng
+     * @Date: 15:27 2018/10/8
      */
     public static ApplicationContext getApplicationContext() {
         if (applicationContext == null)
@@ -50,17 +44,15 @@ public class SpringContextUtils implements ApplicationContextAware {
         return applicationContext;
     }
 
-    /**
-     * Description:从静态变量ApplicationContext中取得Bean, 自动转型为所赋值对象的类型.
-     * @param name 类名称。
-     * @param <T> 泛型
-     * @return <T> 返回bean对象。
-     * @throws
-     * @Author WangShutao
-     * Create Date: 2012-12-20 下午4:03:51
-     */
-    @SuppressWarnings("unchecked")
-    public static <T> T getBean(String name) {
-        return (T) applicationContext.getBean(name);
+    public static Object getBean(String name) {
+        return getApplicationContext().getBean(name);
+    }
+
+    public static <T> T getBean(Class<T> clazz) {
+        return getApplicationContext().getBean(clazz);
+    }
+
+    public static <T> T getBean(String name, Class<T> clazz) {
+        return getApplicationContext().getBean(name, clazz);
     }
 }

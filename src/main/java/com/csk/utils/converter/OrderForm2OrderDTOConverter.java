@@ -1,4 +1,4 @@
-package com.csk.converter;
+package com.csk.utils.converter;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

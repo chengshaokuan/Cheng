@@ -1,6 +1,6 @@
 package com.csk.service.impl;
 
-import com.csk.converter.OrderMaster2OrderDTOConverter;
+import com.csk.utils.converter.OrderMaster2OrderDTOConverter;
 import com.csk.dataobject.OrderDetail;
 import com.csk.dataobject.OrderMaster;
 import com.csk.dataobject.ProductInfo;

@@ -1,4 +1,4 @@
-package com.csk.utils.util;
+package com.csk.utils.serializer;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.JsonSerializer;
@@ -8,12 +8,11 @@ import java.io.IOException;
 import java.util.Date;
 
 /**
- * @Description: 自定义序列
- * @param: null
- * @return:
- * @Author: Mr.Cheng
- * @Date: 16:20 2018/9/5
- */
+ * @program: Cheng
+ * @description: DateToLong序列化
+ * @author: Mr.Cheng
+ * @create: 2018-09-05 17:03
+ **/
 public class Date2LongSerializer extends JsonSerializer<Date> {
 
     @Override

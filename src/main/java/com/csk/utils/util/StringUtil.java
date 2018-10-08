@@ -11,18 +11,11 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Description:
- *
- * @author WangShutao
- * @version 1.0
- * <p>
- * <pre>
- * Modification History:
- * Date         Author       Version     Description
- * ------------------------------------------------------------------
- * 2012-12-20      WangShutao    1.0        1.0 Version
- * </pre>
- */
+ * @program: Cheng
+ * @description: 工具类。
+ * @author: Mr.Cheng
+ * @create: 2018-09-05 17:03
+ **/
 public class StringUtil extends StringUtils {
     private static final String TIME_FORMAT_SHORT = "yyyyMMddHHmmss";
 
@@ -35,6 +28,8 @@ public class StringUtil extends StringUtils {
     private static final String DATE_FORMAT_NORMAL = "yyyy-MM-dd";
 
     private static final String DATE_FORMAT_ENGLISH = "MM/dd/yyyy";
+
+    private static final ResourceBundle MULTILANG = ResourceBundle.getBundle("i18n.timeUtil", Locale.getDefault());
 
     /**
      * 判断给定的字符串是否为空,以及空字符串
@@ -69,7 +64,7 @@ public class StringUtil extends StringUtils {
      * @param i    开始查找位置
      * @return int
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:22:16
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:22:16
      */
     public static int indexOf (String orig, String sub, int len, int i) {
         if (orig == null) {
@@ -100,7 +95,7 @@ public class StringUtil extends StringUtils {
      * @param len  每组长度
      * @return int
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:21:59
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:21:59
      */
     public static int indexOf (String orig, String sub, int len) {
         return indexOf(orig, sub, len, 0);
@@ -113,7 +108,7 @@ public class StringUtil extends StringUtils {
      * @param sub  查找的子串
      * @return int
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:21:46
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:21:46
      */
     public static int indexOf (String orig, String sub) {
         return indexOf(orig, sub, sub.length(), 0);
@@ -126,7 +121,7 @@ public class StringUtil extends StringUtils {
      * @param length 字符串长度
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:21:21
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:21:21
      */
     public static String substr (String orig, int length) {
         if (orig == null) {
@@ -144,7 +139,7 @@ public class StringUtil extends StringUtils {
      * @param input 输入字符串
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:21:06
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:21:06
      */
     public static String toFirstUpperCase (String input) {
         return StringUtil.blank(input) ? input : input.substring(0, 1)
@@ -160,7 +155,7 @@ public class StringUtil extends StringUtils {
      * @param location      填充位置。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:20:09
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:20:09
      */
     public static String fillCharacter (String orig, int num,
                                         String fillCharacter, boolean location) {
@@ -192,7 +187,7 @@ public class StringUtil extends StringUtils {
      * @param clazz 转换类型
      * @return Object
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:19:16
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:19:16
      */
     public static Object convert (String orig, Class<?> clazz) {
         if (orig == null) {
@@ -301,7 +296,7 @@ public class StringUtil extends StringUtils {
      * @param orig 原字符串
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:18:51
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:18:51
      */
     public static String convert (Object orig) {
         if (orig == null) {
@@ -374,7 +369,7 @@ public class StringUtil extends StringUtils {
      * @param s 原始字符串
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:18:19
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:18:19
      */
     public static String null2String (String s) {
         return s == null ? "" : s;
@@ -387,7 +382,7 @@ public class StringUtil extends StringUtils {
      * @param s1 替换字符串。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:17:25
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:17:25
      */
     public static String null2String (String s, String s1) {
         return s == null ? s1 : s;
@@ -399,7 +394,7 @@ public class StringUtil extends StringUtils {
      * @param method 方法名。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:17:07
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:17:07
      */
     public static String methodToClass (Method method) {
         String methodName = method.getName();
@@ -421,7 +416,7 @@ public class StringUtil extends StringUtils {
      * @param interval  间隔
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:16:07
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:16:07
      */
     public static String getEndDate (String startDate, String type, int interval) {
         if (StringUtil.isBlank(startDate) || StringUtil.isBlank(type)) {
@@ -452,20 +447,21 @@ public class StringUtil extends StringUtils {
      *
      * @param normal 中文
      * @return 返回数字。
-     * @Author WangShutao Create Date: 2013-1-16 下午4:39:23
+     * @Author chengshaokuan  Create Date: 2013-1-16 下午4:39:23
      */
     public static String cnToNumber (String normal) {
         Map<String, Integer> map = new HashMap<String, Integer>();
-        map.put(ResourceBundleHelper.getString("multi.one"), 1);
-        map.put(ResourceBundleHelper.getString("multi.two"), 2);
-        map.put(ResourceBundleHelper.getString("multi.three"), 3);
-        map.put(ResourceBundleHelper.getString("multi.four"), 4);
-        map.put(ResourceBundleHelper.getString("multi.five"), 5);
-        map.put(ResourceBundleHelper.getString("multi.six"), 6);
-        map.put(ResourceBundleHelper.getString("multi.seven"), 7);
-        map.put(ResourceBundleHelper.getString("multi.eight"), 8);
-        map.put(ResourceBundleHelper.getString("multi.nine"), 9);
-        map.put(ResourceBundleHelper.getString("multi.ten"), 10);
+
+        map.put(MULTILANG.getString("multi.one"), 1);
+        map.put(MULTILANG.getString("multi.two"), 2);
+        map.put(MULTILANG.getString("multi.three"), 3);
+        map.put(MULTILANG.getString("multi.four"), 4);
+        map.put(MULTILANG.getString("multi.five"), 5);
+        map.put(MULTILANG.getString("multi.six"), 6);
+        map.put(MULTILANG.getString("multi.seven"), 7);
+        map.put(MULTILANG.getString("multi.eight"), 8);
+        map.put(MULTILANG.getString("multi.nine"), 9);
+        map.put(MULTILANG.getString("multi.ten"), 10);
         char[] charArray = normal.toCharArray();
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < charArray.length; i++) {
@@ -485,7 +481,7 @@ public class StringUtil extends StringUtils {
      * @param str 输入字符串。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:14:26
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:14:26
      */
     public static String replaceJsTag (String str) {
         str = str
@@ -504,7 +500,7 @@ public class StringUtil extends StringUtils {
      * @param dec 字符串。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:14:22
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:14:22
      */
     public static String bigDecimalToString (BigDecimal dec) {
         String str = "";
@@ -521,7 +517,7 @@ public class StringUtil extends StringUtils {
      * @param flag   字符。
      * @return List<String>
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:14:20
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:14:20
      */
     public static List<String> processStrings (String string, String flag) {
         List<String> list = new ArrayList<String>();
@@ -541,7 +537,7 @@ public class StringUtil extends StringUtils {
      * @param flag 字符。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:13:07
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:13:07
      */
     public static String processStrings (String[] strs, String flag) {
         String string = "";
@@ -563,7 +559,7 @@ public class StringUtil extends StringUtils {
      * @param flag 字符。
      * @return String
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:12:43
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:12:43
      */
     public static String processStrings (List<String> strs, String flag) {
         String string = "";
@@ -584,7 +580,7 @@ public class StringUtil extends StringUtils {
      * @param str 字符串
      * @return boolean
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:11:45
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:11:45
      */
     public static boolean isBlank (String str) {
         int strLen;
@@ -605,7 +601,7 @@ public class StringUtil extends StringUtils {
      * @param ch 字符
      * @return boolean
      * @throws
-     * @Author WangShutao Create Date: 2012-12-20 下午4:12:11
+     * @Author chengshaokuan  Create Date: 2012-12-20 下午4:12:11
      */
     public static boolean isWhitespace (char ch) {
         if (ch == ' ') {
