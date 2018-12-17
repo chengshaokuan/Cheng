@@ -30,7 +30,7 @@ public class xmlUtil {
         try {
             DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            Document document = documentBuilder.parse(new File(".\\src\\main\\java\\config.xml"));
+            Document document = documentBuilder.parse(new File(".\\src\\main\\resources\\config.xml"));
             NodeList csk = document.getElementsByTagName("csk");
             Node firstChild = csk.item(0).getFirstChild();
              nodeValue = firstChild.getNodeValue();

@@ -13,7 +13,7 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * @program: Cheng
- * @description:计算单位转换工具类
+ * @description: 对称加密工具类
  * @author: Mr.Cheng
  * @create: 2018-09-06 15:12
  **/
@@ -46,6 +46,14 @@ public class AESUtil {
         return secretKey;
     }
 
+    /**
+     * @Description: 加密
+     * @param: data
+     * @param: keyValue
+     * @return: byte[]
+     * @Author: Mr.Cheng
+     * @Date: 10:35 2018/10/25
+     */
     public static byte[] encrypt (byte[] data, String keyValue) throws Exception {
         byte[] key = MD5(keyValue).getBytes();
         Key k = toKey(key);
@@ -164,6 +172,14 @@ public class AESUtil {
         return decryptString;
     }
 
+    /**
+     * @Description:
+     * @param: str 要加密字符串
+     * @param: keyValue 密匙
+     * @return: java.lang.String
+     * @Author: Mr.Cheng
+     * @Date: 10:34 2018/10/25
+     */
     public static String addSecureToStr (String str, String keyValue) {
         byte[] data = null;
         try {
@@ -175,8 +191,8 @@ public class AESUtil {
     }
 
     public static void main (String[] args) throws Exception {
-        System.out.println(addSecureToStr("123456", String.valueOf(initRootKey())));
-//        System.err.println(decryptStr(addSecureToStr("123456", "[B@6483f5ae"), "[B@6483f5ae"));
+        System.out.println(addSecureToStr("amount=2.00&userId=002&seed", "seed"));
+        System.err.println(decryptStr(addSecureToStr("amount=2.00&userId=002&seed", "seed"), "seed"));
         System.err.println(initkey());
     }
 }
