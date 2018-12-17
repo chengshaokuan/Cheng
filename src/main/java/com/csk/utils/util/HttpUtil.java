@@ -106,7 +106,7 @@ public class HttpUtil {
         do {
             HttpClient client = getHttpClient();
             if (client == null) {
-                logger.warn("null client");
+                logger.warn("null clientTest");
                 continue;
             }
             try {

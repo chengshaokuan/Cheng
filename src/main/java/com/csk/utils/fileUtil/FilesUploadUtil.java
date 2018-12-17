@@ -51,7 +51,7 @@ public class FilesUploadUtil {
                 // 设置最多只允许在内存中存储的数据,单位:字节
                 factory.setSizeThreshold(4096);
                 // 设置文件临时存储路径
-                // factory.setRepository(new File("D:\\Temp"));
+                // DesignPatterns.setRepository(new File("D:\\Temp"));
                 // 产生一新的文件上传处理程式
                 ServletFileUpload upload = new ServletFileUpload(factory);
                 // 设置路径、文件名的字符集
