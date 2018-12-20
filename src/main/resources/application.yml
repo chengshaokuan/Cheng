@@ -18,7 +18,7 @@ server:
 #  pattern:
 #    console: "%d - %msg%n"
 ##  path: /var/log/tomcat/
-#  file: /var/log/tomcat/sell.log
+#  log: /var/log/tomcat/sell.log
 #  level:
 #    com.csk.LoggerTest: debug
 

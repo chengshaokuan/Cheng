@@ -17,7 +17,7 @@ import javax.xml.ws.Service;
  *
  */
 @WebServiceClient(name = "MobileCodeWS",
-                  wsdlLocation = "file:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx",
+                  wsdlLocation = "log:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx",
                   targetNamespace = "http://WebXml.com.cn/")
 public class MobileCodeWS extends Service {
 
@@ -31,11 +31,11 @@ public class MobileCodeWS extends Service {
     static {
         URL url = null;
         try {
-            url = new URL("file:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx");
+            url = new URL("log:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx");
         } catch (MalformedURLException e) {
             java.util.logging.Logger.getLogger(MobileCodeWS.class.getName())
                 .log(java.util.logging.Level.INFO,
-                     "Can not initialize the default wsdl from {0}", "file:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx");
+                     "Can not initialize the default wsdl from {0}", "log:/G:/Cheng/src/main/java/com/WebService/CxfClient/MobileCodeWS.asmx");
         }
         WSDL_LOCATION = url;
     }
