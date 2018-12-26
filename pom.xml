@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.imooc</groupId>
+    <groupId>com.csk</groupId>
     <artifactId>sell</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -32,19 +32,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <!-- 排除默认日志包 -->
             <exclusions>
-                <exclusion>
+                <!--<exclusion>
+                    <groupId>org.apache.tomcat.embed</groupId>
+                    <artifactId>tomcat-embed-websocket</artifactId>
+                </exclusion>-->
+                <!--<exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
+                </exclusion>-->
             </exclusions>
         </dependency>
-
-
-        <!--<dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-            <version>1.2</version>
-        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,17 +53,22 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
-
-        <!--<dependency>
+        <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-        </dependency>-->
+            <version>1.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+
+
         <!--项目工具类 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -83,12 +85,14 @@
             <artifactId>gson</artifactId>
         </dependency>
 
+        <!-- 微信公众号获取openid依赖 -->
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>weixin-java-mp</artifactId>
             <version>2.7.0</version>
         </dependency>
 
+        <!-- 微信公众号支付依赖包 -->
         <dependency>
             <groupId>cn.springboot</groupId>
             <artifactId>best-pay-sdk</artifactId>
@@ -114,16 +118,6 @@
             <artifactId>unitils-jodatime</artifactId>
             <version>1.0.3</version>
         </dependency>
-        <!--<dependency>
-            <groupId>cxf</groupId>
-            <artifactId>cxf</artifactId>
-            <version>2.7.11</version>
-        </dependency>-->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.4.6</version>
-        </dependency>
 
 
         <!-- HikariCP连接池 -->
@@ -148,11 +142,6 @@
             <version>1.3.2</version>
         </dependency>
         <dependency>
-            <groupId>com.creditease.smp</groupId>
-            <artifactId>smp-core</artifactId>
-            <version>5.0.0</version>
-        </dependency>
-        <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-csv</artifactId>
             <version>2.2.3</version>
@@ -162,13 +151,6 @@
             <artifactId>jackson-dataformat-xml</artifactId>
             <version>2.8.6</version>
         </dependency>
-        <dependency>
-            <groupId>com.fasterxml.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-yaml</artifactId>
-            <version>2.8.3</version>
-        </dependency>
-
-
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
@@ -180,11 +162,10 @@
             <version>3.1</version>
         </dependency>
         <dependency>
-            <groupId>com.oracle.ojdbc</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <version>10.2.0.1.0</version>
+            <groupId>com.jolbox</groupId>
+            <artifactId>bonecp</artifactId>
+            <version>0.8.0.RELEASE</version>
         </dependency>
-
 
 
         <!-- 日志反向桥接器 -->
@@ -201,7 +182,7 @@
         </dependency>-->
 
         <!--日志begin-->
-        <dependency>
+        <!--  <dependency>
             <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.2</version>
@@ -215,7 +196,7 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
-        </dependency>
+        </dependency>-->
 
         <!-- 日志门面和实现的桥接器 -->
         <!-- slf4j和log4j的桥接器 -->
@@ -244,7 +225,7 @@
             <version>1.2.12</version>
         </dependency>-->
         <!-- logback日志实现 -->
-        <dependency>
+        <!--<dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>1.2.3</version>
@@ -253,9 +234,8 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.3</version>
-        </dependency>
-        <!--logback-->
-        <!--log4j2日志-->
+        </dependency>-->
+        <!--log4j2日志实现-->
         <!--<dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
@@ -270,48 +250,48 @@
 
 
         <!--axis2 begin-->
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-spring</artifactId>
-            <version>${axis2.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-transport-http</artifactId>
-            <version>${axis2.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-transport-local</artifactId>
-            <version>${axis2.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-xmlbeans</artifactId>
-            <version>${axis2.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.axis2</groupId>
-            <artifactId>axis2-jaxws</artifactId>
-            <version>${axis2.version}</version>
-        </dependency>
+        <!-- <dependency>
+             <groupId>org.apache.axis2</groupId>
+             <artifactId>axis2-spring</artifactId>
+             <version>${axis2.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.axis2</groupId>
+             <artifactId>axis2-transport-http</artifactId>
+             <version>${axis2.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.axis2</groupId>
+             <artifactId>axis2-transport-local</artifactId>
+             <version>${axis2.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.axis2</groupId>
+             <artifactId>axis2-xmlbeans</artifactId>
+             <version>${axis2.version}</version>
+         </dependency>
+         <dependency>
+             <groupId>org.apache.axis2</groupId>
+             <artifactId>axis2-jaxws</artifactId>
+             <version>${axis2.version}</version>
+         </dependency>-->
         <!--axis2 end-->
         <!--begin cxf -->
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-core</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-transports-http</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-frontend-jaxws</artifactId>
-            <version>${cxf.version}</version>
-        </dependency>
+        <!--  <dependency>
+              <groupId>org.apache.cxf</groupId>
+              <artifactId>cxf-core</artifactId>
+              <version>${cxf.version}</version>
+          </dependency>
+          <dependency>
+              <groupId>org.apache.cxf</groupId>
+              <artifactId>cxf-rt-transports-http</artifactId>
+              <version>${cxf.version}</version>
+          </dependency>
+          <dependency>
+              <groupId>org.apache.cxf</groupId>
+              <artifactId>cxf-rt-frontend-jaxws</artifactId>
+              <version>${cxf.version}</version>
+          </dependency>-->
         <!--end cxf -->
 
     </dependencies>

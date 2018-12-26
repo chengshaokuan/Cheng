@@ -1,6 +1,5 @@
 package com.csk.utils.fileUtil;
 
-import com.creditease.core.exception.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -42,11 +41,9 @@ public class FileDownLoadUtil {
             File file = new File(filePath);
             if (!file.exists()) {
                 logger.info("############ FilePath: " + filePath);
-                throw new BusinessException("文件不存在！");
             }
             if (!file.isFile()) {
                 logger.info("############ FilePath: " + filePath);
-                throw new BusinessException("非文件类型！");
             }
             // 取得文件名。
             String fileName = file.getName();

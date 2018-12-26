@@ -1,0 +1,653 @@
+2018-12-26 14:41:30 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 17532 (started by STELLA in G:\cheng)
+2018-12-26 14:41:30 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 17532 (started by STELLA in G:\cheng)
+2018-12-26 14:41:30 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:41:30 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:41:44 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 17.043 seconds (JVM running for 19.573)
+2018-12-26 14:41:44 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 17.043 seconds (JVM running for 19.573)
+2018-12-26 14:44:10 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 29028 (started by STELLA in G:\cheng)
+2018-12-26 14:44:10 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 29028 (started by STELLA in G:\cheng)
+2018-12-26 14:44:10 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:44:10 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:44:27 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 20.107 seconds (JVM running for 22.66)
+2018-12-26 14:44:27 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 20.107 seconds (JVM running for 22.66)
+2018-12-26 14:45:49 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 14332 (started by STELLA in G:\cheng)
+2018-12-26 14:45:49 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 14332 (started by STELLA in G:\cheng)
+2018-12-26 14:45:49 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:45:49 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:46:01 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 14.395 seconds (JVM running for 16.595)
+2018-12-26 14:46:01 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 14.395 seconds (JVM running for 16.595)
+2018-12-26 14:49:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29400 (started by STELLA in G:\cheng)
+2018-12-26 14:49:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29400 (started by STELLA in G:\cheng)
+2018-12-26 14:49:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:49:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:50:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.611 seconds (JVM running for 20.504)
+2018-12-26 14:50:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.611 seconds (JVM running for 20.504)
+2018-12-26 14:50:57 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 22736 (started by STELLA in G:\cheng)
+2018-12-26 14:50:57 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 22736 (started by STELLA in G:\cheng)
+2018-12-26 14:50:57 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:50:57 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:51:08 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 13.474 seconds (JVM running for 15.786)
+2018-12-26 14:51:08 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 13.474 seconds (JVM running for 15.786)
+2018-12-26 14:51:08 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 29 ] - productCategoryList=[ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=Tue Dec 25 18:15:01 CST 2018, updateTime=null)]
+2018-12-26 14:51:08 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 29 ] - productCategoryList=[ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=Tue Dec 25 18:15:01 CST 2018, updateTime=null)]
+2018-12-26 14:51:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 12744 (started by STELLA in G:\cheng)
+2018-12-26 14:51:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 12744 (started by STELLA in G:\cheng)
+2018-12-26 14:51:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:51:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:52:08 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.339 seconds (JVM running for 20.795)
+2018-12-26 14:52:08 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.339 seconds (JVM running for 20.795)
+2018-12-26 14:56:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 15816 (started by STELLA in G:\cheng)
+2018-12-26 14:56:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 15816 (started by STELLA in G:\cheng)
+2018-12-26 14:56:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:56:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:56:23 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 19.249 seconds (JVM running for 22.277)
+2018-12-26 14:56:23 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 19.249 seconds (JVM running for 22.277)
+2018-12-26 14:59:00 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 2844 (started by STELLA in G:\cheng)
+2018-12-26 14:59:00 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 2844 (started by STELLA in G:\cheng)
+2018-12-26 14:59:00 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:59:00 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 14:59:17 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 20.05 seconds (JVM running for 23.018)
+2018-12-26 14:59:17 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 20.05 seconds (JVM running for 23.018)
+2018-12-26 15:01:37 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 23328 (started by STELLA in G:\cheng)
+2018-12-26 15:01:37 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 48 ] - Starting SellerInfoDaoTest on DESKTOP-QLK8BRU with PID 23328 (started by STELLA in G:\cheng)
+2018-12-26 15:01:37 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:01:37 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:01:53 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 18.605 seconds (JVM running for 20.737)
+2018-12-26 15:01:53 [ main ] - [ INFO  ] [ com.csk.repository.SellerInfoDaoTest : 57 ] - Started SellerInfoDaoTest in 18.605 seconds (JVM running for 20.737)
+2018-12-26 15:01:57 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select sellerinfo0_.seller_id as seller_i1_4_0_, sellerinfo0_.openid as openid2_4_0_, sellerinfo0_.password as password3_4_0_, sellerinfo0_.username as username4_4_0_ from seller_info sellerinfo0_ where sellerinfo0_.seller_id=?
+2018-12-26 15:01:57 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - []
+2018-12-26 15:01:57 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - insert into seller_info (openid, password, username, seller_id) values (?, ?, ?, ?)
+2018-12-26 15:01:57 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [abc]
+2018-12-26 15:01:57 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [2] as [VARCHAR] - [admin]
+2018-12-26 15:01:57 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [3] as [VARCHAR] - [admin]
+2018-12-26 15:01:57 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [4] as [VARCHAR] - []
+2018-12-26 15:03:32 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29448 (started by STELLA in G:\cheng)
+2018-12-26 15:03:32 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29448 (started by STELLA in G:\cheng)
+2018-12-26 15:03:32 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:03:32 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:03:47 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.834 seconds (JVM running for 20.211)
+2018-12-26 15:03:47 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.834 seconds (JVM running for 20.211)
+2018-12-26 15:03:48 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select orderdetai0_.detail_id as detail_i1_0_0_, orderdetai0_.order_id as order_id2_0_0_, orderdetai0_.product_icon as product_3_0_0_, orderdetai0_.product_id as product_4_0_0_, orderdetai0_.product_name as product_5_0_0_, orderdetai0_.product_price as product_6_0_0_, orderdetai0_.product_quantity as product_7_0_0_ from order_detail orderdetai0_ where orderdetai0_.detail_id=?
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [1234567810]
+2018-12-26 15:03:48 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - update order_detail set order_id=?, product_icon=?, product_id=?, product_name=?, product_price=?, product_quantity=? where detail_id=?
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [11111112]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [2] as [VARCHAR] - [http://xxx.jpg]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [3] as [VARCHAR] - [11111112]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [4] as [VARCHAR] - [皮蛋粥]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [5] as [NUMERIC] - [2.20000000000000017763568394002504646778106689453125]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [6] as [INTEGER] - [3]
+2018-12-26 15:03:48 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [7] as [VARCHAR] - [1234567810]
+2018-12-26 15:04:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 18768 (started by STELLA in G:\cheng)
+2018-12-26 15:04:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 18768 (started by STELLA in G:\cheng)
+2018-12-26 15:04:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:04:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:04:22 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 19.906 seconds (JVM running for 21.998)
+2018-12-26 15:04:22 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 19.906 seconds (JVM running for 21.998)
+2018-12-26 15:04:23 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select orderdetai0_.detail_id as detail_i1_0_, orderdetai0_.order_id as order_id2_0_, orderdetai0_.product_icon as product_3_0_, orderdetai0_.product_id as product_4_0_, orderdetai0_.product_name as product_5_0_, orderdetai0_.product_price as product_6_0_, orderdetai0_.product_quantity as product_7_0_ from order_detail orderdetai0_ where orderdetai0_.order_id=?
+2018-12-26 15:04:23 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [11111112]
+2018-12-26 15:04:38 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 13296 (started by STELLA in G:\cheng)
+2018-12-26 15:04:38 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 13296 (started by STELLA in G:\cheng)
+2018-12-26 15:04:38 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:04:38 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:04:51 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 15.202 seconds (JVM running for 17.756)
+2018-12-26 15:04:51 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 15.202 seconds (JVM running for 17.756)
+2018-12-26 15:04:51 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 29 ] - productCategoryList=[ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=Tue Dec 25 18:15:01 CST 2018, updateTime=null)]
+2018-12-26 15:04:51 [ main ] - [ INFO  ] [ com.csk.dataObject.dao.ProductCategoryDaoTest : 29 ] - productCategoryList=[ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=Tue Dec 25 18:15:01 CST 2018, updateTime=null)]
+2018-12-26 15:10:44 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 28772 (started by STELLA in G:\cheng)
+2018-12-26 15:10:44 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 28772 (started by STELLA in G:\cheng)
+2018-12-26 15:10:44 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:10:44 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:11:46 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9776 (started by STELLA in G:\cheng)
+2018-12-26 15:11:46 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9776 (started by STELLA in G:\cheng)
+2018-12-26 15:11:46 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:11:46 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:12:29 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9656 (started by STELLA in G:\cheng)
+2018-12-26 15:12:29 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9656 (started by STELLA in G:\cheng)
+2018-12-26 15:12:29 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:12:29 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:13:12 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 8828 (started by STELLA in G:\cheng)
+2018-12-26 15:13:12 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 8828 (started by STELLA in G:\cheng)
+2018-12-26 15:13:12 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:13:12 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:13:26 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 16.119 seconds (JVM running for 18.486)
+2018-12-26 15:13:26 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 16.119 seconds (JVM running for 18.486)
+2018-12-26 15:13:29 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select productcat0_.category_id as category1_2_0_, productcat0_.category_name as category2_2_0_, productcat0_.category_type as category3_2_0_, productcat0_.create_time as create_t4_2_0_, productcat0_.update_time as update_t5_2_0_ from product_category productcat0_ where productcat0_.category_id=?
+2018-12-26 15:13:29 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [INTEGER] - [11]
+2018-12-26 15:13:37 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 40 ] - ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=2018-12-25 18:15:01.0, updateTime=2018-12-26 18:15:04.0)
+2018-12-26 15:13:37 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 40 ] - ProductCategory(categoryId=11, categoryName=美味的, categoryType=9, createTime=2018-12-25 18:15:01.0, updateTime=2018-12-26 18:15:04.0)
+2018-12-26 15:14:07 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 10448 (started by STELLA in G:\cheng)
+2018-12-26 15:14:07 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 10448 (started by STELLA in G:\cheng)
+2018-12-26 15:14:07 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:14:07 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:14:22 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 17.373 seconds (JVM running for 19.481)
+2018-12-26 15:14:22 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 17.373 seconds (JVM running for 19.481)
+2018-12-26 15:14:29 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - insert into product_category (category_name, category_type, create_time, update_time) values (?, ?, ?, ?)
+2018-12-26 15:14:30 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [女生最爱]
+2018-12-26 15:14:30 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [2] as [INTEGER] - [5]
+2018-12-26 15:14:30 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 53 ] - binding parameter [3] as [TIMESTAMP] - [null]
+2018-12-26 15:14:30 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 53 ] - binding parameter [4] as [TIMESTAMP] - [null]
+2018-12-26 15:16:52 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9372 (started by STELLA in G:\cheng)
+2018-12-26 15:16:52 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 48 ] - Starting ProductCategoryDaoTest on DESKTOP-QLK8BRU with PID 9372 (started by STELLA in G:\cheng)
+2018-12-26 15:16:52 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:16:52 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:17:05 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 14.642 seconds (JVM running for 16.856)
+2018-12-26 15:17:05 [ main ] - [ INFO  ] [ com.csk.repository.ProductCategoryDaoTest : 57 ] - Started ProductCategoryDaoTest in 14.642 seconds (JVM running for 16.856)
+2018-12-26 15:17:05 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - insert into product_category (category_name, category_type, create_time, update_time) values (?, ?, ?, ?)
+2018-12-26 15:17:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [女生最爱]
+2018-12-26 15:17:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [2] as [INTEGER] - [5]
+2018-12-26 15:17:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 53 ] - binding parameter [3] as [TIMESTAMP] - [null]
+2018-12-26 15:17:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 53 ] - binding parameter [4] as [TIMESTAMP] - [null]
+2018-12-26 15:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 21312 (started by STELLA in G:\cheng)
+2018-12-26 15:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 21312 (started by STELLA in G:\cheng)
+2018-12-26 15:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:34:34 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29684 (started by STELLA in G:\cheng)
+2018-12-26 15:34:34 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29684 (started by STELLA in G:\cheng)
+2018-12-26 15:34:34 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:34:34 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:34:45 [ main ] - [ ERROR ] [ org.mybatis.spring.mapper.MapperFactoryBean : 82 ] - Error while adding the mapper 'interface com.csk.repository.OrderDetailRepository' to configuration.
+org.apache.ibatis.builder.BuilderException: Could not find value method on SQL annotation.  Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.VACHAR
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:472)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parseStatement(MapperAnnotationBuilder.java:289)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:134)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:728)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.VACHAR
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:101)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:46)
+	at org.apache.ibatis.scripting.xmltags.XMLLanguageDriver.createSqlSource(XMLLanguageDriver.java:60)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.buildSqlSourceFromStrings(MapperAnnotationBuilder.java:482)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:465)
+	... 73 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.VACHAR
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 81 common frames omitted
+2018-12-26 15:35:10 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 10880 (started by STELLA in G:\cheng)
+2018-12-26 15:35:10 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 10880 (started by STELLA in G:\cheng)
+2018-12-26 15:35:10 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:35:10 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:35:25 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.936 seconds (JVM running for 19.276)
+2018-12-26 15:35:25 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.936 seconds (JVM running for 19.276)
+2018-12-26 15:39:20 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 16296 (started by STELLA in G:\cheng)
+2018-12-26 15:39:20 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 16296 (started by STELLA in G:\cheng)
+2018-12-26 15:39:20 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:39:20 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:39:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.277 seconds (JVM running for 20.997)
+2018-12-26 15:39:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.277 seconds (JVM running for 20.997)
+2018-12-26 15:40:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 27064 (started by STELLA in G:\cheng)
+2018-12-26 15:40:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 27064 (started by STELLA in G:\cheng)
+2018-12-26 15:40:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:40:52 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:41:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.147 seconds (JVM running for 18.481)
+2018-12-26 15:41:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.147 seconds (JVM running for 18.481)
+2018-12-26 15:48:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 23200 (started by STELLA in G:\cheng)
+2018-12-26 15:48:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 23200 (started by STELLA in G:\cheng)
+2018-12-26 15:48:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:48:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:49:02 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.143 seconds (JVM running for 18.408)
+2018-12-26 15:49:02 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.143 seconds (JVM running for 18.408)
+2018-12-26 15:50:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 17052 (started by STELLA in G:\cheng)
+2018-12-26 15:50:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 17052 (started by STELLA in G:\cheng)
+2018-12-26 15:50:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:50:48 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:51:01 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.24 seconds (JVM running for 19.204)
+2018-12-26 15:51:01 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.24 seconds (JVM running for 19.204)
+2018-12-26 15:56:35 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 30284 (started by STELLA in G:\cheng)
+2018-12-26 15:56:35 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 30284 (started by STELLA in G:\cheng)
+2018-12-26 15:56:35 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:56:35 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 15:56:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 26.757 seconds (JVM running for 29.83)
+2018-12-26 15:56:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 26.757 seconds (JVM running for 29.83)
+2018-12-26 16:25:44 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 11452 (started by STELLA in G:\cheng)
+2018-12-26 16:25:44 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 11452 (started by STELLA in G:\cheng)
+2018-12-26 16:25:44 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 16:25:44 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 16:25:58 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.611 seconds (JVM running for 18.921)
+2018-12-26 16:25:58 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.611 seconds (JVM running for 18.921)
+2018-12-26 17:12:57 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 6336 (started by STELLA in G:\cheng)
+2018-12-26 17:12:57 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 6336 (started by STELLA in G:\cheng)
+2018-12-26 17:12:57 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:12:57 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:13:11 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.32 seconds (JVM running for 18.443)
+2018-12-26 17:13:11 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.32 seconds (JVM running for 18.443)
+2018-12-26 17:14:46 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 13320 (started by STELLA in G:\cheng)
+2018-12-26 17:14:46 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 13320 (started by STELLA in G:\cheng)
+2018-12-26 17:14:46 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:14:46 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:14:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 14.539 seconds (JVM running for 16.744)
+2018-12-26 17:14:59 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 14.539 seconds (JVM running for 16.744)
+2018-12-26 17:20:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29548 (started by STELLA in G:\cheng)
+2018-12-26 17:20:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29548 (started by STELLA in G:\cheng)
+2018-12-26 17:20:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:20:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:20:54 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 13.806 seconds (JVM running for 15.664)
+2018-12-26 17:20:54 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 13.806 seconds (JVM running for 15.664)
+2018-12-26 17:37:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 25064 (started by STELLA in G:\cheng)
+2018-12-26 17:37:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 25064 (started by STELLA in G:\cheng)
+2018-12-26 17:37:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:37:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:37:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 14.959 seconds (JVM running for 17.137)
+2018-12-26 17:37:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 14.959 seconds (JVM running for 17.137)
+2018-12-26 17:59:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 26584 (started by STELLA in G:\cheng)
+2018-12-26 17:59:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 26584 (started by STELLA in G:\cheng)
+2018-12-26 17:59:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 17:59:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:00:09 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.368 seconds (JVM running for 20.328)
+2018-12-26 18:00:09 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 18.368 seconds (JVM running for 20.328)
+2018-12-26 18:00:33 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 17872 (started by STELLA in G:\cheng)
+2018-12-26 18:00:33 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 17872 (started by STELLA in G:\cheng)
+2018-12-26 18:00:33 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:00:33 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:00:47 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.412 seconds (JVM running for 18.544)
+2018-12-26 18:00:47 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.412 seconds (JVM running for 18.544)
+2018-12-26 18:06:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 28412 (started by STELLA in G:\cheng)
+2018-12-26 18:06:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 28412 (started by STELLA in G:\cheng)
+2018-12-26 18:06:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:06:14 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:06:23 [ main ] - [ ERROR ] [ org.mybatis.spring.mapper.MapperFactoryBean : 82 ] - Error while adding the mapper 'interface com.csk.repository.OrderDetailRepository' to configuration.
+org.apache.ibatis.builder.BuilderException: Could not find value method on SQL annotation.  Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:472)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parseStatement(MapperAnnotationBuilder.java:289)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:134)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:728)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:101)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:46)
+	at org.apache.ibatis.scripting.xmltags.XMLLanguageDriver.createSqlSource(XMLLanguageDriver.java:60)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.buildSqlSourceFromStrings(MapperAnnotationBuilder.java:482)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:465)
+	... 73 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 81 common frames omitted
+2018-12-26 18:06:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 25004 (started by STELLA in G:\cheng)
+2018-12-26 18:06:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 25004 (started by STELLA in G:\cheng)
+2018-12-26 18:06:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:06:42 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:06:51 [ main ] - [ ERROR ] [ org.mybatis.spring.mapper.MapperFactoryBean : 82 ] - Error while adding the mapper 'interface com.csk.repository.OrderDetailRepository' to configuration.
+org.apache.ibatis.builder.BuilderException: Could not find value method on SQL annotation.  Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:472)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parseStatement(MapperAnnotationBuilder.java:289)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:134)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:728)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:101)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:46)
+	at org.apache.ibatis.scripting.xmltags.XMLLanguageDriver.createSqlSource(XMLLanguageDriver.java:60)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.buildSqlSourceFromStrings(MapperAnnotationBuilder.java:482)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:465)
+	... 73 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.Decimal
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 81 common frames omitted
+2018-12-26 18:09:16 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 23964 (started by STELLA in G:\cheng)
+2018-12-26 18:09:16 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 23964 (started by STELLA in G:\cheng)
+2018-12-26 18:09:16 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:09:16 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:09:27 [ main ] - [ ERROR ] [ org.mybatis.spring.mapper.MapperFactoryBean : 82 ] - Error while adding the mapper 'interface com.csk.repository.OrderDetailRepository' to configuration.
+org.apache.ibatis.builder.BuilderException: Could not find value method on SQL annotation.  Cause: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.BigDecimal
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:472)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parseStatement(MapperAnnotationBuilder.java:289)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:134)
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72)
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:728)
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving JdbcType. Cause: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.BigDecimal
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:73)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:101)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:46)
+	at org.apache.ibatis.scripting.xmltags.XMLLanguageDriver.createSqlSource(XMLLanguageDriver.java:60)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.buildSqlSourceFromStrings(MapperAnnotationBuilder.java:482)
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.getSqlSourceFromAnnotations(MapperAnnotationBuilder.java:465)
+	... 73 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant org.apache.ibatis.type.JdbcType.BigDecimal
+	at java.lang.Enum.valueOf(Enum.java:238)
+	at org.apache.ibatis.type.JdbcType.valueOf(JdbcType.java:25)
+	at org.apache.ibatis.builder.BaseBuilder.resolveJdbcType(BaseBuilder.java:71)
+	... 81 common frames omitted
+2018-12-26 18:10:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 27600 (started by STELLA in G:\cheng)
+2018-12-26 18:10:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 27600 (started by STELLA in G:\cheng)
+2018-12-26 18:10:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:10:06 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:10:25 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 21.269 seconds (JVM running for 23.749)
+2018-12-26 18:10:25 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 21.269 seconds (JVM running for 23.749)
+2018-12-26 18:14:26 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29584 (started by STELLA in G:\cheng)
+2018-12-26 18:14:26 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29584 (started by STELLA in G:\cheng)
+2018-12-26 18:14:27 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:14:27 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:14:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 15.534 seconds (JVM running for 18.091)
+2018-12-26 18:14:40 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 15.534 seconds (JVM running for 18.091)
+2018-12-26 18:17:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 3332 (started by STELLA in G:\cheng)
+2018-12-26 18:17:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 3332 (started by STELLA in G:\cheng)
+2018-12-26 18:17:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:17:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:18:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.995 seconds (JVM running for 19.222)
+2018-12-26 18:18:04 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.995 seconds (JVM running for 19.222)
+2018-12-26 18:18:05 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select orderdetai0_.detail_id as detail_i1_0_0_, orderdetai0_.order_id as order_id2_0_0_, orderdetai0_.product_icon as product_3_0_0_, orderdetai0_.product_id as product_4_0_0_, orderdetai0_.product_name as product_5_0_0_, orderdetai0_.product_price as product_6_0_0_, orderdetai0_.product_quantity as product_7_0_0_ from order_detail orderdetai0_ where orderdetai0_.detail_id=?
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [12345674]
+2018-12-26 18:18:05 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - insert into order_detail (order_id, product_icon, product_id, product_name, product_price, product_quantity, detail_id) values (?, ?, ?, ?, ?, ?, ?)
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [11111112]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [2] as [VARCHAR] - [http://xxx.jpg]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [3] as [VARCHAR] - [11111112]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [4] as [VARCHAR] - [皮蛋粥]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [5] as [NUMERIC] - [2.20000000000000017763568394002504646778106689453125]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [6] as [INTEGER] - [3]
+2018-12-26 18:18:05 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [7] as [VARCHAR] - [12345674]
+2018-12-26 18:30:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 12308 (started by STELLA in G:\cheng)
+2018-12-26 18:30:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 12308 (started by STELLA in G:\cheng)
+2018-12-26 18:30:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:30:05 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:30:21 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.467 seconds (JVM running for 19.801)
+2018-12-26 18:30:21 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 17.467 seconds (JVM running for 19.801)
+2018-12-26 18:30:22 [ main ] - [ DEBUG ] [ org.hibernate.SQL : 92 ] - select orderdetai0_.detail_id as detail_i1_0_, orderdetai0_.order_id as order_id2_0_, orderdetai0_.product_icon as product_3_0_, orderdetai0_.product_id as product_4_0_, orderdetai0_.product_name as product_5_0_, orderdetai0_.product_price as product_6_0_, orderdetai0_.product_quantity as product_7_0_ from order_detail orderdetai0_ where orderdetai0_.order_id=?
+2018-12-26 18:30:22 [ main ] - [ TRACE ] [ org.hibernate.type.descriptor.sql.BasicBinder : 65 ] - binding parameter [1] as [VARCHAR] - [11111112]
+2018-12-26 18:31:38 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29404 (started by STELLA in G:\cheng)
+2018-12-26 18:31:38 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29404 (started by STELLA in G:\cheng)
+2018-12-26 18:31:38 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:31:38 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:31:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.625 seconds (JVM running for 18.887)
+2018-12-26 18:31:53 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 16.625 seconds (JVM running for 18.887)
+2018-12-26 18:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29360 (started by STELLA in G:\cheng)
+2018-12-26 18:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 48 ] - Starting OrderDetailDaoTest on DESKTOP-QLK8BRU with PID 29360 (started by STELLA in G:\cheng)
+2018-12-26 18:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:32:37 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 637 ] - No active profile set, falling back to default profiles: default
+2018-12-26 18:32:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 15.336 seconds (JVM running for 17.488)
+2018-12-26 18:32:50 [ main ] - [ INFO  ] [ com.csk.repository.OrderDetailDaoTest : 57 ] - Started OrderDetailDaoTest in 15.336 seconds (JVM running for 17.488)

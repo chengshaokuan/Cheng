@@ -17,9 +17,9 @@ import java.util.Date;
  * 2017-06-11 17:08
  */
 @Entity
-@Setter
-@Getter
-@DynamicUpdate
+@Data
+@DynamicUpdate//动态更新-需要设置数据库的更新时间字段为自动更新 这样，
+// 查询出时间，去设置其他字段后保存，更新时间依然会更新
 public class OrderMaster {
 
     /** 订单id. */

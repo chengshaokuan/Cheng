@@ -18,7 +18,6 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class BuyerServiceImpl implements BuyerService {
 
-    JdbcTemplate jdbc;
 
     @Autowired
     private OrderService orderService;

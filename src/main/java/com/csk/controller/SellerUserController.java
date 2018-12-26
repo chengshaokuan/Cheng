@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;
@@ -27,7 +28,7 @@ import java.util.concurrent.TimeUnit;
  * Created by 程少宽
  * 2017-07-30 15:28
  */
-@Controller
+@RestController
 @RequestMapping("/seller")
 public class SellerUserController {
 
@@ -39,6 +40,11 @@ public class SellerUserController {
 
     @Autowired
     private ProjectUrlConfig projectUrlConfig;
+
+    @GetMapping("/login1")
+    public String login(){
+        return "success";
+    }
 
     @GetMapping("/login")
     public ModelAndView login(@RequestParam("openid") String openid,

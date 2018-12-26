@@ -8,12 +8,12 @@
 			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %l - %msg%n" />
 		</Console>
 		<!--文件会打印出所有信息，这个log每次运行程序会自动清空，由append属性决定，这个也挺有用的，适合临时测试用-->
-		<File name="log" fileName="log/test.log" append="false">
+		<File name="LogConfig" fileName="LogConfig/test.LogConfig" append="false">
 			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
 		</File>
-		<RollingFile name="debugFile" fileName="${log.dir}debug.log"
+		<RollingFile name="debugFile" fileName="${LogConfig.dir}debug.LogConfig"
 			immediateFlush="false"
-			filePattern="${log.dir}$${date:yyyy-MM}/debug-%d{MM-dd-yyyy}-%i.log.gz">
+			filePattern="${LogConfig.dir}$${date:yyyy-MM}/debug-%d{MM-dd-yyyy}-%i.LogConfig.gz">
 			<PatternLayout>
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
 			</PatternLayout>
@@ -28,9 +28,9 @@
 				<SizeBasedTriggeringPolicy size="200 MB" />
 			</Policies>
 		</RollingFile>
-		<RollingFile name="infoFile" fileName="${log.dir}info.log"
+		<RollingFile name="infoFile" fileName="${LogConfig.dir}info.LogConfig"
 			immediateFlush="false"
-			filePattern="${log.dir}$${date:yyyy-MM}/info-%d{MM-dd-yyyy}-%i.log.gz">
+			filePattern="${LogConfig.dir}$${date:yyyy-MM}/info-%d{MM-dd-yyyy}-%i.LogConfig.gz">
 			<PatternLayout>
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
 			</PatternLayout>
@@ -45,9 +45,9 @@
 				<SizeBasedTriggeringPolicy size="200 MB" />
 			</Policies>
 		</RollingFile>
-		<RollingFile name="errorFile" fileName="${log.dir}error.log"
+		<RollingFile name="errorFile" fileName="${LogConfig.dir}error.LogConfig"
 			immediateFlush="false"
-			filePattern="${log.dir}$${date:yyyy-MM}/error-%d{MM-dd-yyyy}-%i.log.gz">
+			filePattern="${LogConfig.dir}$${date:yyyy-MM}/error-%d{MM-dd-yyyy}-%i.LogConfig.gz">
 			<PatternLayout>
 				<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
 			</PatternLayout>
@@ -58,8 +58,8 @@
 				<SizeBasedTriggeringPolicy size="200 MB" />
 			</Policies>
 		</RollingFile>
-		<RollingFile name="custFile" fileName="${log.dir}percust.log"
-			filePattern="${log.dir}$${date:yyyy-MM}/percust-%d{MM-dd-yyyy}-%i.log.gz">
+		<RollingFile name="custFile" fileName="${LogConfig.dir}percust.LogConfig"
+			filePattern="${LogConfig.dir}$${date:yyyy-MM}/percust-%d{MM-dd-yyyy}-%i.LogConfig.gz">
 			<Filters>
 				<ThresholdFilter level="WARN" onMatch="DENY"
 					onMismatch="NEUTRAL" />

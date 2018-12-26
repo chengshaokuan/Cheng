@@ -273,7 +273,7 @@ public class UploadUtils {
 
             DataOutputStream dos = new DataOutputStream(httpURLConnection.getOutputStream());
             dos.writeBytes(twoHyphens + boundary + end);
-            dos.writeBytes("Content-Disposition: form-data; name=\"log\"; filename=\"" + savePath + "\"" + end);
+            dos.writeBytes("Content-Disposition: form-data; name=\"LogConfig\"; filename=\"" + savePath + "\"" + end);
             dos.writeBytes(end);
 
             dos.writeBytes(text);
@@ -362,7 +362,7 @@ public class UploadUtils {
             JPEGImageEncoder encoder = JPEGCodec.createJPEGEncoder(out);
             encoder.encode(buffImg);
             out.close();
-//            ImageIO.write(buffImg, suffix, log);
+//            ImageIO.write(buffImg, suffix, LogConfig);
             return new FileInputStream(file);
         } catch (Exception e) {
             e.printStackTrace();

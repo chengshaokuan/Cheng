@@ -1,24 +1,28 @@
 spring:
   datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8
-    hikari:
-      driver-class-name:com.mysql.jdbc.Driver
-  jpa:
+
+jpa:
     show-sql: true
-  jackson:
+jackson:
     default-property-inclusion: non_null
-  redis:
+redis:
     host: 192.168.30.113
     port: 6379
 server:
   context-path: /sell
-#logging:
+
+#定义日志文件位置和日志文件名，默认位置src/main/resource,默认名称：https://blog.csdn.net/inke88/article/details/75007649
+logging:
+  config: classpath:LogConfig/logback-test.xml
 #  pattern:
 #    console: "%d - %msg%n"
-##  path: /var/log/tomcat/
-#  log: /var/log/tomcat/sell.log
+##  path: /var/LogConfig/tomcat/
+#  LogConfig: /var/LogConfig/tomcat/sell.LogConfig
 #  level:
 #    com.csk.LoggerTest: debug
 
@@ -38,3 +42,6 @@ projectUrl:
   wechatMpAuthorize: http://sell.natapp4.cc
   wechatOpenAuthorize: http://sell.natapp4.cc
   sell: http://sell.natapp4.cc
+
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml

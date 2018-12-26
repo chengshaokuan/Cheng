@@ -28,7 +28,7 @@
 
     <!-- 记录到文件 -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>${LOG_HOME}/testFile.log</file>
+        <file>${LOG_HOME}/testFile.LogConfig</file>
         <append>true</append>
         <encoder>
             <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
@@ -45,7 +45,7 @@
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- rollover daily 配置日志所生成的目录以及生成文件名的规则 -->
-            <fileNamePattern>${LOG_HOME}/log_%d{yyyyMMdd}.%i.log</fileNamePattern>
+            <fileNamePattern>${LOG_HOME}/log_%d{yyyyMMdd}.%i.LogConfig</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>10 MB</maxFileSize>
             </timeBasedFileNamingAndTriggeringPolicy>
