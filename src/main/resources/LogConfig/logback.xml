@@ -21,8 +21,9 @@
         <target>
             System.err
         </target>
+
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>INFO</level>
+            <level>DEBUG</level>
         </filter>
     </appender>
 
@@ -57,8 +58,9 @@
         <prudent>false</prudent>
     </appender>
 
-    <!-- 日志输出级别,这个需要放到最下面，不然可能引用不到 -->
-    <root level="INFO">
+    <!-- 日志输出级别,这个需要放到最下面，不然可能引用不到-->
+    <!-- 這個level，控制著縂的級別，這能比這個高，不能低-->
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
         <appender-ref ref="RollingFILE"/>

@@ -1,0 +1,23 @@
+mybatis:
+#  mybatis-config.xml的单独配置文件
+#  config-location: classpath:/mybatis-config.xml
+#  起别名
+  type-aliases-package: com.csk.dataobject
+#  映射文件位置
+  mapper-locations: classpath:mapper/*.xml
+#logging:
+#  config:
+#  file:
+#  level: debug
+#  path:
+#  pattern:
+#    console:
+#    level:
+#    file:
+Test:
+    A: 1
+    B: 2
+
+defined:
+  name: csk
+  age: 13

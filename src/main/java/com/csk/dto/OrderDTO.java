@@ -19,7 +19,6 @@ import java.util.List;
  * 2017-06-11 18:30
  */
 @Data
-@JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class OrderDTO {
 

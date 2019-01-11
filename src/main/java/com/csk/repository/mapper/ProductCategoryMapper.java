@@ -2,14 +2,15 @@ package com.csk.repository.mapper;
 
 import com.csk.dataobject.ProductCategory;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
 
 
 //在SellApplication上配置了注解@MapperScan(basePackages = "com.csk.repository.mapper")//配置mybatis mapper扫描路径 所以不用我们再写注解注入Bean
-//@Mapper
-//@Component //也可以通过上面两个注解实现注入Bean
+@Mapper
+@Component //也可以通过上面两个注解实现注入Bean
 public interface ProductCategoryMapper {
     /**
      * 通过Map插入
@@ -88,4 +89,6 @@ public interface ProductCategoryMapper {
      * @return
      */
     ProductCategory selectByCategoryType (Integer categoryType);
+
+    List<ProductCategory> findByCategoryTypeIn(List<Integer> categoryTypeList);
 }

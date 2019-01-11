@@ -5,9 +5,11 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8
+  profiles:
+    active: dev
 
-jpa:
-    show-sql: true
+#jpa:
+#    show-sql: true
 jackson:
     default-property-inclusion: non_null
 redis:
@@ -19,6 +21,8 @@ server:
 #定义日志文件位置和日志文件名，默认位置src/main/resource,默认名称：https://blog.csdn.net/inke88/article/details/75007649
 logging:
   config: classpath:LogConfig/logback-test.xml
+
+
 #  pattern:
 #    console: "%d - %msg%n"
 ##  path: /var/LogConfig/tomcat/
@@ -43,5 +47,9 @@ projectUrl:
   wechatOpenAuthorize: http://sell.natapp4.cc
   sell: http://sell.natapp4.cc
 
+
+
 #mybatis:
 #  mapper-locations: classpath:mapper/*.xml
+
+

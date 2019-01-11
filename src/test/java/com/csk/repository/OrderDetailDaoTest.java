@@ -32,7 +32,7 @@ public class OrderDetailDaoTest {
     @Test
     public void saveTest(){
         OrderDetail orderDetail = new OrderDetail();
-        orderDetail.setDetailId("12345674");
+        orderDetail.setDetailId("002");
         orderDetail.setOrderId("11111112");
         orderDetail.setProductIcon("http://xxx.jpg");
         orderDetail.setProductId("11111112");

@@ -19,6 +19,13 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
         <layout class="ch.qos.logback.classic.PatternLayout">
             <pattern>%d{yyyy-MM-dd HH:mm:ss}[%thread] %-5level %logger{50} - %msg%n</pattern>
         </layout>
+        <target>
+            System.err
+        </target>
+        <!--这个相当于单独的开关，下面root，有一个级别总开关-->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>info</level>
+        </filter>
     </appender>
 
     <!-- 滚动记录文件，先将日志记录到指定文件，当符合某个条件时，将日志记录到其他文件 -->
