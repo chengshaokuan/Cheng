@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
-@Mapper
+@Mapper//代替mapper的映射文件
 @Component
 public interface OrderDetailMapper {
 

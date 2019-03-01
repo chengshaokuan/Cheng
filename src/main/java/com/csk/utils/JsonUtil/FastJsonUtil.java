@@ -336,4 +336,8 @@ public class FastJsonUtil {
             return false;
         }
     }
+
+    public static void main (String[] args) {
+
+    }
 }

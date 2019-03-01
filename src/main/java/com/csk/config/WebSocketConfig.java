@@ -23,8 +23,8 @@ import javax.servlet.ServletContext;
 //        return new ServerEndpointExporter();
 //    }
 //}
-@Configuration
-@EnableWebSocket
+//@Configuration
+//@EnableWebSocket
 public class WebSocketConfig implements WebSocketConfigurer {
 
     /**

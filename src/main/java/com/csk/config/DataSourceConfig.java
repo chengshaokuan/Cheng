@@ -1,4 +1,4 @@
-package com.csk.mybatisConfig;
+package com.csk.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -16,10 +16,13 @@ import javax.sql.DataSource;
 @Configuration
 //添加配置文件,使用@Value("${key的值}")
 //@PropertySource(value = {"classpath:jdbc.properties",}, ignoreResourceNotFound = true)
+
 //@ImportResource(value = {"classpath:/spring-mybatis.xml"})   // 直接使用这个引入配置文件
+
 @MapperScan(basePackages = DataSourceConfig.PACKAGE, sqlSessionTemplateRef  = "dcSqlSessionTemplate")
 //配置mybatis mapper扫描路径
 public class DataSourceConfig {
+
 
     static final String PACKAGE = "com.csk.repository.mapper";
     static final String MAPPER_LOCATION = "classpath:mapper/*.xml";

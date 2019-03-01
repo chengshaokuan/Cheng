@@ -1,5 +1,6 @@
 package com.csk.utils.JsonUtil;
 
+import com.csk.VO.Users;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;
@@ -17,6 +18,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -384,6 +386,21 @@ public class JacksonUtil {
     public static JavaType getCollectionType (Class<?> collectionClass, Class<?>... elementClasses) {
         return mapper.getTypeFactory().constructParametricType(collectionClass, elementClasses);
     }
+    public static void main (String[] args) throws IOException {
+        Users user = new Users();
+        user.setName("cs");
+        user.setAge(12);
+        user.setBirthday(LocalDate.now());
+        user.setCreateTime(LocalDateTime.of(LocalDate.now(), LocalTime.now()));
+        String string = "{\"name\":\"l\",\"age\":3,\"birthday\":\"2019-01-31T15:58:48.482\"}";
+
+        String s = JacksonUtil.beanToJson(user);
+        System.out.println(s);
+
+
+
+    }
+
 
 
 }

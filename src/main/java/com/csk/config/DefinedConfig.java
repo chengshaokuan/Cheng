@@ -13,10 +13,9 @@ import org.springframework.stereotype.Component;
  **/
 @Data
 @Component
-@ConfigurationProperties(prefix = "defined")
-//application.yml指定的dev文档也可以使用@Value("${键名}")或者Environment，env.getProperty("键名")
-//只能是.properties(任意名),或者application.yml(或者指定的application-dev.yml)才可以读取到值。
-@PropertySource(value = "classpath:/defined.properties")
+//application.yml指定的dev文档可以使用@Value("${键名}")或者Environment，env.getProperty("键名")
+//只能是*.properties(任意名)或者application.yml(或者指定的application-dev.yml)才可以读取到值。
+@PropertySource(value = "classpath:/test1.properties")
 public class DefinedConfig {
 
     private String name;
@@ -24,10 +23,10 @@ public class DefinedConfig {
 
     /**
      * 可以在类中使用下面方法调用
-     * @Autowired
-     * private  DefinedConfig definedConfig;
      *
-     * definedConfig.getNmae()
+     *   @Autowired
+     *   private  DefinedConfig definedConfig;
      *
+     *   definedConfig.getName()
      */
 }

@@ -10,7 +10,8 @@ import java.util.Map;
 
 //在SellApplication上配置了注解@MapperScan(basePackages = "com.csk.repository.mapper")//配置mybatis mapper扫描路径 所以不用我们再写注解注入Bean
 @Mapper
-@Component //也可以通过上面两个注解实现注入Bean
+@Component
+//也可以通过上面两个注解实现注入Bean
 public interface ProductCategoryMapper {
     /**
      * 通过Map插入

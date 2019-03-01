@@ -1,6 +1,7 @@
 package com.csk.config;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +12,7 @@ import javax.annotation.Resource;
  * 2017-07-30 11:43
  */
 @Data
+//下面这个注解可以读取到任意properties文件和application-dev.yml或者application.yml(和其指定的)
 @ConfigurationProperties(prefix = "projectUrl")
 @Component
 public class ProjectUrlConfig {
