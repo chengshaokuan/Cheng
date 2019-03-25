@@ -1,9 +1,12 @@
 package com.csk.DesignPatterns;
 
+import net.sf.cglib.core.DebuggingClassWriter;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
@@ -13,33 +16,29 @@ import java.lang.reflect.Method;
  * @create: 2018-11-27 10:47
  **/
 public class CglibTest {
-    public static void main (String[] args) {
+    public static void main (String[] args) throws IOException {
 
-        BuyBus buyBus = new BuyBus();
-        CglibProxy cglibProxy = new CglibProxy();
-        BuyBus bus = (BuyBus) cglibProxy.getCglibProxy(buyBus);
-        bus.buy();
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(BuyBus.class);
+        enhancer.setCallback(new CglibProxy());
+        BuyBus buyBus = (BuyBus) enhancer.create();
+        buyBus.buy();
+        //orm
+
+
     }
 }
 class BuyBus{
     public void buy(){
-        System.out.println("买汽车");
+        System.out.println("卖汽车");
     }
 }
 class CglibProxy implements MethodInterceptor{
-    private Object target;
-    public Object getCglibProxy(final Object target){
-        this.target = target;
-        Enhancer enhancer = new Enhancer();
-        enhancer.setSuperclass(this.target.getClass());
-        enhancer.setCallback(this);
-        return enhancer.create();
-    }
-
-
     @Override
     public Object intercept (Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        Object invoke = methodProxy.invoke(target, objects);
+        System.out.println("代理前");
+        Object invoke = methodProxy.invokeSuper(o, objects);
+        System.out.println("代理后");
         return invoke;
     }
 }
